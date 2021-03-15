@@ -98,7 +98,11 @@ nav {
   right: 0;
   background-color: rgba(255, 255, 255, 0);
 }
-
+nav .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 nav #nav-brand {
   display: block;
   /* width: 30%; */
@@ -333,30 +337,38 @@ section#services .item p {
   text-align: center;
 }
 
-section#portfolio {
-  width: 100%;
-}
 
-section#portfolio ul {
+
+section#shelf {
   width: 100%;
+  background: url(./imgs/portfolio/thumbnails/bookshelf.jpeg);
+  background-size: cover;
+}
+section#shelf ul {
+  width: 100%;
+  min-height: 100vh;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-section#portfolio ul li {
-  width: 33.3%;
+section#shelf ul li {
+  /* 
   float: right;
-  box-sizing: border-box;
-  line-height: 0;
+  line-height: 0; */
+  width: 33.333333333%;
   position: relative;
+  box-sizing: border-box;
   cursor: pointer;
 }
 
-section#portfolio ul li img {
-  width: 100%;
-}
 
-section#portfolio .port-hover {
+section#shelf .port-hover {
   position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   top: 0;
   right: 0;
   line-height: normal;
@@ -366,10 +378,9 @@ section#portfolio .port-hover {
   box-sizing: border-box;
   padding: 20% 0;
   background-color: rgba(255, 60, 30, 0.7);
-  display: none;
 }
 
-section#portfolio .port-hover h4 {
+section#shelf .port-hover h4 {
   font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 700;
@@ -377,7 +388,7 @@ section#portfolio .port-hover h4 {
   text-transform: uppercase;
 }
 
-section#portfolio .port-hover h2 {
+section#shelf .port-hover h2 {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.5;
@@ -385,8 +396,8 @@ section#portfolio .port-hover h2 {
   text-transform: uppercase;
 }
 
-section#portfolio ul li:hover .port-hover {
-  display: block;
+section#shelf ul li:hover .port-hover {
+  display: flex;
 }
 
 section#download {
@@ -484,8 +495,9 @@ footer h4 {
   }
 
   nav #nav-brand {
+    content: url(./imgs/logoblack.png);
     color: black;
-    width: 50%;
+    width: 60px;
     margin-bottom: 30px;
   }
 
@@ -495,13 +507,13 @@ footer h4 {
 
   nav button {
     display: block;
-    float: left;
+    float: right;
     box-sizing: border-box;
     margin-bottom: 30px;
     width: 40px;
     height: 40px;
     background-color: white;
-    color: lightgray;
+    color: black;
     border: 1px solid lightgray;
     border-radius: 5px;
     cursor: pointer;
@@ -536,7 +548,7 @@ footer h4 {
     width: 48%;
   }
 
-  section#portfolio ul li {
+  section#shelf ul li {
     width: 50%;
   }
 
@@ -560,27 +572,11 @@ footer h4 {
     /* width: 100%; */
     margin-bottom: 0px;
   }
-  section#portfolio .port-hover h4 {
-    font-size: 1rem;
-  }
-  
-  section#portfolio .port-hover h2 {
-    font-size: 1.5rem;
-  }
+ 
 }
 
 @media (max-width: 575.98px) {
-  section#portfolio ul li {
-    width: 100%;
-  }
-  section#portfolio .port-hover h4 {
-    font-size: 1rem;
-
-  }
-  
-  section#portfolio .port-hover h2 {
-    font-size: 1.5rem;
-  }
+ 
 }
 @keyframes bounce {
   0%,
