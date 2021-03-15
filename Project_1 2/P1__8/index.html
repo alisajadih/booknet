@@ -14,8 +14,13 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./rtlstyle.css" />
-
+    <!-- <link rel="manifest" href="./imgs/logo.png"> -->
+    <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon" />
     <title>بوک نت</title>
   </head>
 
@@ -23,11 +28,12 @@
     <!-- Navbar -->
     <nav>
       <div class="container">
-        <a href="#" id="nav-brand">بوک نت</a>
+        <!-- <a href="#" id="nav-brand">بوک نت</a> -->
+        <img src="./imgs/logo.png" width="60" id="nav-brand" alt="" />
         <button><i class="fas fa-bars"></i></button>
         <ul>
           <li><a href=""> کتاب بخوان</a></li>
-          <li><a href=""> سخنان بزرگان</a></li>
+          <li><a href="">سخن بزرگان</a></li>
           <li><a href="">قفسه‌ها</a></li>
           <li><a href="">تماس با ما</a></li>
         </ul>
@@ -46,8 +52,10 @@
           </p>
           <a href="" id="heading-link">
             <span> به سوی قفسه‌ها </span>
-            <span class="material-icons"> south </span></a
-          >
+
+            <!-- <div class="icon-scroll"></div> -->
+            <span class="material-icons bounce"> south </span>
+          </a>
         </div>
       </div>
     </header>
@@ -84,11 +92,21 @@
     <section id="services">
       <div class="container">
         <div class="row">
-          <h2>سخنان بزرگان</h2>
+          <h2>سخن بزرگان</h2>
           <span class="underline"></span>
           <div class="service-itmes">
             <div class="item">
               <!-- <i class="fas fa-gem"></i> -->
+
+              <div class="image-rounded-container">
+                <div class="image-rounded">
+                  <img
+                    src="./imgs/services/hogo.jpg"
+                    width="100%"
+                    alt="service"
+                  />
+                </div>
+              </div>
               <h3>ویکتور هوگو</h3>
               <p>
                 خوشبخت، کسی است که به یکی از این دو چیز دسترسی دارد، کتاب‌های
@@ -97,11 +115,32 @@
             </div>
             <div class="item">
               <!--   <i class="fas fa-laptop-code"></i> -->
-              <h3>فرانک لووبویتز</h3>
-              <p>قبل از صحبت کردن فکر و قبل از فکر کردن مطالعه کنید</p>
+              <div class="image-rounded-container">
+                <div class="image-rounded">
+                  <img
+                    src="./imgs/services/voltaire.jpg"
+                    width="100%"
+                    alt="service"
+                  />
+                </div>
+              </div>
+              <h3>ولتر</h3>
+              <p>
+                برگ های کتاب به منزله بال هایی هستند که روح ما را به عالم نور و
+                روشنایی پرواز می دهند
+              </p>
             </div>
             <div class="item">
               <!-- <i class="fas fa-globe"></i> -->
+              <div class="image-rounded-container">
+                <div class="image-rounded">
+                  <img
+                    src="./imgs/services/soghrat.jpg"
+                    width="100%"
+                    alt="service"
+                  />
+                </div>
+              </div>
               <h3>سقراط</h3>
               <p>
                 جامعه وقتی فرزانگی و سعادت می‌یابد که مطالعه کار روزانه‌اش باشد
@@ -109,6 +148,15 @@
             </div>
             <div class="item">
               <!-- <i class="fas fa-heart"></i> -->
+              <div class="image-rounded-container">
+                <div class="image-rounded">
+                  <img
+                    src="./imgs/services/shekspier.jpg"
+                    width="100%"
+                    alt="service"
+                  />
+                </div>
+              </div>
               <h3>شکسپیر</h3>
               <p>
                 کتاب، هم‌نشینی است که تو را خسته و ملول نمی‌سازد دوستی است که تو
@@ -128,7 +176,7 @@
             <img src="imgs/portfolio/thumbnails/1.jpg" alt="" />
           </div>
           <div class="port-hover">
-            <h4>Category</h4>
+            <h4>قفسه</h4>
             <h2>رمان</h2>
           </div>
         </li>
@@ -137,7 +185,7 @@
             <img src="imgs/portfolio/thumbnails/2.jpg" alt="" />
           </div>
           <div class="port-hover">
-            <h4>Category</h4>
+            <h4>قفسه</h4>
             <h2>تاریخی</h2>
           </div>
         </li>
@@ -146,7 +194,7 @@
             <img src="imgs/portfolio/thumbnails/3.jpg" alt="" />
           </div>
           <div class="port-hover">
-            <h4>Category</h4>
+            <h4>قفسه</h4>
             <h2>شعر و ادبیات</h2>
           </div>
         </li>
@@ -155,7 +203,7 @@
             <img src="imgs/portfolio/thumbnails/4.jpg" alt="" />
           </div>
           <div class="port-hover">
-            <h4>Category</h4>
+            <h4>قفسه</h4>
             <h2>روان‌شناسی</h2>
           </div>
         </li>
@@ -164,7 +212,7 @@
             <img src="imgs/portfolio/thumbnails/5.jpg" alt="" />
           </div>
           <div class="port-hover">
-            <h4>Category</h4>
+            <h4>قفسه</h4>
             <h2>فلسفه</h2>
           </div>
         </li>
@@ -173,7 +221,7 @@
             <img src="imgs/portfolio/thumbnails/6.jpg" alt="" />
           </div>
           <div class="port-hover">
-            <h4>Category</h4>
+            <h4>قفسه</h4>
             <h2>طنز</h2>
           </div>
         </li>
@@ -181,14 +229,6 @@
     </section>
     <div class="clear-fix"></div>
     <!-- Download -->
-    <!-- <section id="download">
-      <div class="contatner">
-        <div class="row">
-          <h2>Free Download at Start Bootstrap!</h2>
-          <a href="#" id="download-link">DOWNLOAD NOW!</a>
-        </div>
-      </div>
-    </section> -->
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -198,11 +238,11 @@
           <ul>
             <li>
               <i class="fas fa-phone"></i>
-              <p>+1 (202) 555-0149</p>
+              <p>۰۹۱۸۹۸۷۶۵۴۲</p>
             </li>
             <li>
               <i class="fas fa-envelope"></i>
-              <p>contact@yourwebsite.com</p>
+              <p>support@booknet.ir</p>
             </li>
           </ul>
         </div>
