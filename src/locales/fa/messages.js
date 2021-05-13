@@ -1,0 +1,1 @@
+/* eslint-disable */export default{languageData:{"plurals":function(n,ord){if(ord)return"other";return n>=0&&n<=1?"one":"other"}},messages:{"hi":"\u0633\u0644\u0627\u0645"}};
