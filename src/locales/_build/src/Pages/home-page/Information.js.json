@@ -1,0 +1,26 @@
+{
+  "info header": {
+    "origin": [
+      [
+        "src/Pages/home-page/Information.js",
+        9
+      ]
+    ]
+  },
+  "info p 1": {
+    "origin": [
+      [
+        "src/Pages/home-page/Information.js",
+        11
+      ]
+    ]
+  },
+  "info p 2": {
+    "origin": [
+      [
+        "src/Pages/home-page/Information.js",
+        12
+      ]
+    ]
+  }
+}

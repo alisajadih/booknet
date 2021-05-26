@@ -1,7 +1,23 @@
 import * as React from "react";
-import { i18n } from "@lingui/core";
+import { Navbar } from "./Navbar";
+import { Header } from "./Header";
+import { Information } from "./Information";
+import { Services } from "./Services";
+import { Shelf } from "./Shelf";
+import { Footer } from "./Footer";
 
-const ff = ["ali", "mohammad"];
 export function Landing() {
-  return <p>{i18n._("hi")}</p>;
+  return (
+    <>
+      <Navbar />
+      <div className="clear-fix"></div>
+      <Header />
+      <Information />
+      <Services />
+      <div className="clear-fix"></div>
+      <Shelf />
+      <div className="clear-fix"></div>
+      <Footer />
+    </>
+  );
 }

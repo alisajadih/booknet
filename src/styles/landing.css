@@ -1,0 +1,623 @@
+/* 9 of 250 CSS properties converted by rtl.daskhat.ir 
+ These properties should be override originals. 
+ just load rtl css file after original css file.*/
+@font-face {
+  font-family: "IRANYekanMobile";
+  src: url("./fonts/IRANYekanMobile-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekanMobile";
+  src: url("./fonts/IRANYekanMobile-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekanMobile ExtraBlack";
+  src: url("./fonts/IRANYekanMobile-ExtraBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekanMobile";
+  src: url("./fonts/IRANYekanMobile-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekanMobile";
+  src: url("./fonts/IRANYekanMobile-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekanMobile";
+  src: url("./fonts/IRANYekanMobile-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekanMobile";
+  src: url("./fonts/IRANYekanMobile-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekanMobile";
+  src: url("./fonts/IRANYekanMobile.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+body p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  direction: rtl;
+  font-family: IRANYekanMobile;
+  letter-spacing: 0.5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav #nav-brand {
+  display: block;
+  /* width: 30%; */
+  float: right;
+  box-sizing: border-box;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+nav button {
+  display: none;
+}
+
+nav #nav-brand:hover {
+  color: white;
+}
+
+nav ul {
+  width: 70%;
+  float: left;
+  list-style: none;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+nav ul li a {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(92, 77, 66, 0.7),
+      rgba(92, 77, 66, 0.7)
+    ),
+    url(imgs/bg-masthead.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .row {
+  padding: 200px 100px;
+  box-sizing: border-box;
+}
+
+header h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.underline {
+  display: inline-block;
+  width: 54px;
+  border: 2px solid #f4623a;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header p {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 300;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  padding: 0 120px;
+}
+
+header #heading-link {
+  display: inline-block;
+  width: 130px;
+  padding: 25px 35px;
+  background-color: #f4623a;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 50px auto 0 auto;
+  border-radius: 50px;
+  word-spacing: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+header #heading-link:hover {
+  background-color: #f24516;
+}
+
+section#section-info {
+  width: 100%;
+  background-color: #f4623a;
+  padding: 150px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+section#section-info h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: white;
+}
+
+section#section-info span {
+  display: inline-block;
+  width: 50px;
+  border: 2px solid white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section#section-info p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 0 210px;
+  color: white;
+  font-family: "IRANYekanMobile";
+  text-align: center;
+  margin: 1rem 0;
+}
+
+section#section-info a {
+  display: inline-block;
+  margin: 30px 0;
+  font-size: 0.85;
+  font-weight: 700;
+  background-color: #f8f9fa;
+  color: #212529;
+  text-decoration: none;
+  padding: 25px 45px;
+  border-radius: 50px;
+}
+
+section#section-info a:hover {
+  background-color: #e2e6ea;
+}
+
+section#services {
+  width: 100%;
+  margin-bottom: 300px;
+}
+
+section#services .row {
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+}
+
+section#services h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+section#services .service-itmes {
+  width: 100%;
+}
+
+section#services .service-itmes .item {
+  float: right;
+  width: 24%;
+  padding: 30px 10px;
+  box-sizing: border-box;
+}
+section#services .service-itmes .item .image-rounded-container {
+  width: 140px;
+  height: 140px;
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+section#services .service-itmes .item .image-rounded {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+section#services .item .fas {
+  color: #f4623a;
+  font-size: 4rem;
+}
+
+section#services .item h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+section#services .item p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: black;
+  text-align: center;
+}
+
+section#shelf {
+  width: 100%;
+  background: url(./imgs/portfolio/thumbnails/bookshelf.jpeg);
+  background-size: cover;
+}
+section#shelf ul {
+  width: 100%;
+  min-height: 100vh;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#shelf ul li {
+  /* 
+    float: right;
+    line-height: 0; */
+  width: 33.333333333%;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+section#shelf .port-hover {
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  line-height: normal;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20% 0;
+  background-color: rgba(255, 60, 30, 0.7);
+}
+
+section#shelf .port-hover h4 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+section#shelf .port-hover h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  text-transform: uppercase;
+}
+
+section#shelf ul li:hover .port-hover {
+  display: flex;
+}
+
+section#download {
+  width: 100%;
+  background-color: rgb(52, 58, 64);
+  text-align: center;
+  padding: 150px 0;
+}
+
+section#download h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: white;
+}
+
+section#download a {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 25px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+section#download a:hover {
+  background: #e2e6ea;
+}
+
+section#contact {
+  width: 100%;
+  text-align: center;
+  padding: 150px 0;
+}
+
+section#contact h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+section#contact p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d;
+  padding: 0 210px;
+}
+
+section#contact ul {
+  width: 100%;
+  list-style: none;
+  padding: 50px 0;
+}
+
+section#contact ul li {
+  display: inline-block;
+  width: 35%;
+  box-sizing: border-box;
+}
+
+section#contact ul p {
+  padding: 0;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+section#contact ul i {
+  color: #6c757d;
+  font-size: 3rem;
+}
+
+footer {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 0.8;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+@media (max-width: 991.98px) {
+  nav {
+    position: relative;
+  }
+
+  nav #nav-brand {
+    content: url(./imgs/logoblack.png);
+    color: black;
+    width: 60px;
+    margin-bottom: 30px;
+  }
+
+  nav #nav-brand:hover {
+    color: black;
+  }
+
+  nav button {
+    display: block;
+    float: right;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  header .row {
+    padding: 100px 0;
+  }
+
+  header h1 {
+    font-size: 2.25rem;
+  }
+
+  header p {
+    padding: 0;
+  }
+
+  section#section-info p {
+    padding: 0;
+  }
+
+  section#services .service-itmes .item {
+    float: right;
+    width: 48%;
+  }
+
+  section#shelf ul li {
+    width: 50%;
+  }
+
+  section#contact p {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  section#services .service-itmes .item {
+    float: none;
+    width: 100%;
+  }
+  section#services {
+    /* width: 100%; */
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 575.98px) {
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+/* .icon-scroll,
+  .icon-scroll:before {
+    position: absolute;
+    left: 50%;
+    top : 50%;
+    transform: translate(-50% , -50%);
+  }
+  .icon-scroll {
+    width: 25px;
+    height: 40px;
+    margin-left: -15px;
+    bottom: 3rem;
+    margin-top: -35px;
+    box-shadow: inset 0 0 0 2px white;
+    border-radius: 25px;
+  }
+  .icon-scroll:before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: white;
+    margin-left: -2px;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+  }
+  @keyframes scroll {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+  } */

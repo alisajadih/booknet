@@ -1,0 +1,34 @@
+{
+  "contact": {
+    "origin": [
+      [
+        "src/Pages/home-page/Navbar.js",
+        7
+      ]
+    ]
+  },
+  "shelfs": {
+    "origin": [
+      [
+        "src/Pages/home-page/Navbar.js",
+        11
+      ]
+    ]
+  },
+  "services": {
+    "origin": [
+      [
+        "src/Pages/home-page/Navbar.js",
+        15
+      ]
+    ]
+  },
+  "section info": {
+    "origin": [
+      [
+        "src/Pages/home-page/Navbar.js",
+        19
+      ]
+    ]
+  }
+}
