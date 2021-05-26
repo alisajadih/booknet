@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2021-05-13 23:46+0430\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/Pages/home-page/Header.js:9
+msgid "book net"
+msgstr "book net"
+
+#: src/Pages/home-page/Navbar.js:7
+msgid "contact"
+msgstr "contact"
+
+#: src/Pages/home-page/Contact.js:9
+msgid "contact us"
+msgstr "contact us"
+
+#: src/Pages/home-page/Shelf.js:25
+msgid "falsafe"
+msgstr "falsafe"
+
+#: src/Pages/home-page/Header.js:13
+msgid "go to shelf"
+msgstr "go to shelf"
+
+#: src/Pages/home-page/Header.js:11
+msgid "header text"
+msgstr "header text"
+
+#: src/Pages/home-page/Information.js:9
+msgid "info header"
+msgstr "info header"
+
+#: src/Pages/home-page/Information.js:11
+msgid "info p 1"
+msgstr "info p 1"
+
+#: src/Pages/home-page/Information.js:12
+msgid "info p 2"
+msgstr "info p 2"
+
+#: src/Pages/home-page/Shelf.js:21
+msgid "ravan shenasi"
+msgstr "ravan shenasi"
+
+#: src/Pages/home-page/Shelf.js:8
+msgid "roman"
+msgstr "roman"
+
+#: src/Pages/home-page/Navbar.js:19
+msgid "section info"
+msgstr "section info"
+
+#: src/Pages/home-page/Navbar.js:15
+msgid "services"
+msgstr "services"
+
+#: src/Pages/home-page/Services.js:27
+msgid "shekspier"
+msgstr "shekspier"
+
+#: src/Pages/home-page/Shelf.js:7
+#: src/Pages/home-page/Shelf.js:11
+#: src/Pages/home-page/Shelf.js:16
+#: src/Pages/home-page/Shelf.js:20
+#: src/Pages/home-page/Shelf.js:24
+#: src/Pages/home-page/Shelf.js:28
+msgid "shelf"
+msgstr "shelf"
+
+#: src/Pages/home-page/Navbar.js:11
+msgid "shelfs"
+msgstr "shelfs"
+
+#: src/Pages/home-page/Shelf.js:17
+msgid "shero adabiat"
+msgstr "shero adabiat"
+
+#: src/Pages/home-page/Services.js:22
+msgid "soqrat"
+msgstr "soqrat"
+
+#: src/Pages/home-page/Services.js:23
+#: src/Pages/home-page/Services.js:28
+msgid "soqrat content"
+msgstr "soqrat content"
+
+#: src/Pages/home-page/Services.js:37
+msgid "speach of the big "
+msgstr "speach of the big "
+
+#: src/Pages/home-page/Shelf.js:29
+msgid "tanz"
+msgstr "tanz"
+
+#: src/Pages/home-page/Shelf.js:12
+msgid "tarikhi"
+msgstr "tarikhi"
+
+#: src/Pages/home-page/Services.js:17
+msgid "velter"
+msgstr "velter"
+
+#: src/Pages/home-page/Services.js:18
+msgid "velter content"
+msgstr "velter content"
+
+#: src/Pages/home-page/Services.js:12
+msgid "victor hogo"
+msgstr "victor hogo"
+
+#: src/Pages/home-page/Services.js:13
+msgid "victor hogo content"
+msgstr "victor hogo content"

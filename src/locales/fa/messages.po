@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2021-05-13 23:46+0430\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fa\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/Pages/home-page/Header.js:9
+msgid "book net"
+msgstr "بوک‌نت"
+
+#: src/Pages/home-page/Navbar.js:7
+msgid "contact"
+msgstr "تماس با ما"
+
+#: src/Pages/home-page/Contact.js:9
+msgid "contact us"
+msgstr "تماس با ما"
+
+#: src/Pages/home-page/Shelf.js:25
+msgid "falsafe"
+msgstr "فلسفه"
+
+#: src/Pages/home-page/Header.js:13
+msgid "go to shelf"
+msgstr "به سوی قفسه‌ها"
+
+#: src/Pages/home-page/Header.js:11
+msgid "header text"
+msgstr "شیرین کردن قهومون &#x2615; با لذت کتاب خواندن &#x1F4DA; و گپ و گفتگو&#x1F4AC; درباره‌ی کتاب‌هایی که خواندیم"
+
+#: src/Pages/home-page/Information.js:9
+msgid "info header"
+msgstr " &#x1F914;چرا باید کتاب بخوانیم؟"
+
+#: src/Pages/home-page/Information.js:11
+msgid "info p 1"
+msgstr "فرض ما بر این است که کسی که به این صفحه و مطلب رسیده، حتماً یک ربط وارتباطی با کتاب و کتاب‌خوانی دارد و حتماً چندتایی کتاب در فهرست«خوانده شده» هایش هست. همین‌طور احتمال می‌دهیم که اگر لذت کتابخواندن را تجربه کرده باشید، احتمالاً به توضیح و شرح بیشتری برایفواید این عادت خوب نیاز ندارید. اما مگر همه‌ی ما و تمامکتاب‌خوان‌های دنیا از ابتدا کتاب دستشان بوده است؟"
+
+#: src/Pages/home-page/Information.js:12
+msgid "info p 2"
+msgstr "بیایید با هم صادق باشیم: کتاب‌خوان شدن، گاهی به یک تصادف وابسته استو ممکن است همه‌ی آدم‌ها در مسیر زندگی‌شان تصادفی را تجربه نکردهباشند که به سمت کتاب‌ها هدایت شوند. کم نیستند آدم‌هایی که کتابخواندن را نه یک کار معمولی و البته لذت‌بخش که یک امر پیچیده و گاهاًدشوار می‌پندارند. ما در عصری زندگی می‌کنیم که دستیابی به اطلاعات (ازهر نوع) ساده‌تر و سریع‌تر از هر زمان دیگری ممکن است و احتمالاً درقیاس با شبکه‌های اجتماعی و موتورهای جستجو و…، کتاب گزینه‌ی سریع وخوشایندی برای پر کردن اوقات نیست! بله، حتی کتاب‌خوان‌ترین آدم‌هایدوروبر ما هم، وقت بیشتری را صرف چیزهایی جز کتاب می‌کنند."
+
+#: src/Pages/home-page/Shelf.js:21
+msgid "ravan shenasi"
+msgstr "روان‌شناسی"
+
+#: src/Pages/home-page/Shelf.js:8
+msgid "roman"
+msgstr "رمان"
+
+#: src/Pages/home-page/Navbar.js:19
+msgid "section info"
+msgstr "کتاب بخوان"
+
+#: src/Pages/home-page/Navbar.js:15
+msgid "services"
+msgstr "سخن بزرگان"
+
+#: src/Pages/home-page/Services.js:27
+msgid "shekspier"
+msgstr "شکسپیر"
+
+#: src/Pages/home-page/Shelf.js:7
+#: src/Pages/home-page/Shelf.js:11
+#: src/Pages/home-page/Shelf.js:16
+#: src/Pages/home-page/Shelf.js:20
+#: src/Pages/home-page/Shelf.js:24
+#: src/Pages/home-page/Shelf.js:28
+msgid "shelf"
+msgstr "قفسه‌"
+
+#: src/Pages/home-page/Navbar.js:11
+msgid "shelfs"
+msgstr "قفسه‌ها"
+
+#: src/Pages/home-page/Shelf.js:17
+msgid "shero adabiat"
+msgstr "شعر و ادبیات"
+
+#: src/Pages/home-page/Services.js:22
+msgid "soqrat"
+msgstr "سقراط"
+
+#: src/Pages/home-page/Services.js:23
+#: src/Pages/home-page/Services.js:28
+msgid "soqrat content"
+msgstr "جامعه وقتی فرزانگی و سعادت می‌یابد که مطالعه کار روزانه‌اش باشد"
+
+#: src/Pages/home-page/Services.js:37
+msgid "speach of the big "
+msgstr "سخن بزرگان"
+
+#: src/Pages/home-page/Shelf.js:29
+msgid "tanz"
+msgstr "طنز"
+
+#: src/Pages/home-page/Shelf.js:12
+msgid "tarikhi"
+msgstr "تاریخی"
+
+#: src/Pages/home-page/Services.js:17
+msgid "velter"
+msgstr "ولتر"
+
+#: src/Pages/home-page/Services.js:18
+msgid "velter content"
+msgstr "برگ های کتاب به منزله بال هایی هستند که روح ما را به عالم نور وروشنایی پرواز می دهند"
+
+#: src/Pages/home-page/Services.js:12
+msgid "victor hogo"
+msgstr "ویکتور هوگو"
+
+#: src/Pages/home-page/Services.js:13
+msgid "victor hogo content"
+msgstr "خوشبخت، کسی است که به یکی از این دو چیز دسترسی دارد، کتاب‌هایخوب یا دوستانی که اهل کتاب باشند"
