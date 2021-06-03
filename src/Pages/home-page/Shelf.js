@@ -1,6 +1,8 @@
 import * as React from "react";
 import { i18n } from "@lingui/core";
 import { ShelfItem } from "./ShelfItem";
+import { useScrollByRouteHash } from "shared/useScrollByRouteHash";
+import { SHELFS_ROUTE_STATE } from "shared/constants";
 
 const shelfItems = [
   {
@@ -31,10 +33,11 @@ const shelfItems = [
 ];
 
 export function Shelf() {
+  const ref = useScrollByRouteHash({ hash: "#shelfs" }); // 
   return (
-    <section id="shelf">
+    <section id="shelf" ref={ref}>
       <ul>
-        {shelfItems.map((item , index) => (
+        {shelfItems.map((item, index) => (
           <ShelfItem {...item} key={index} />
         ))}
       </ul>

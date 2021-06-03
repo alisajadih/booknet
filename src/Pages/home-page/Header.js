@@ -3,7 +3,7 @@ import { i18n } from "@lingui/core";
 
 export function Header() {
   return (
-    <header>
+    <header className='main-header'>
       <div className="container">
         <div className="row">
           <h1 className="heading-1">{i18n._("book net")}</h1>

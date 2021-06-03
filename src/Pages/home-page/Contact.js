@@ -1,12 +1,15 @@
 import * as React from "react";
 import { i18n } from "@lingui/core";
+import { useScrollByRouteHash } from "shared/useScrollByRouteHash";
+import { HASHES } from "shared/constants";
 
 export function Contact() {
+  const ref = useScrollByRouteHash({ hash: HASHES.CONTACT });
   return (
-    <section id="contact">
+    <section id="contact" ref={ref}>
       <div className="container">
         <div className="ro">
-          <h2>{i18n._('contact us')}</h2>
+          <h2>{i18n._("contact us")}</h2>
           <span className="underline"></span>
           <ul>
             <li>

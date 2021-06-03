@@ -13,11 +13,58 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/Pages/Signup/Links.js:10
+msgid "Already have an account? Sign in"
+msgstr "حساب کاربری دارید؟ وارد شوید"
+
+#: src/Pages/Login/Links.js:15
+#: src/Pages/Signup/Links.js:15
+msgid "Back to home"
+msgstr "بازگشت به صفحه اصلی"
+
+#: src/Pages/Login/Links.js:10
+msgid "Don't have an account? Sign Up"
+msgstr "حساب کاربری ندارید؟ ثبت نام کنید."
+
+#: src/Pages/Login/Form.js:16
+#: src/Pages/Profile/EditSection.js:21
+#: src/Pages/Signup/Form.js:39
+msgid "Email Address"
+msgstr "ایمیل"
+
+#: src/Pages/Signup/Form.js:30
+msgid "First Name"
+msgstr "نام"
+
+#: src/Pages/Profile/Navbar.js:27
+msgid "Home"
+msgstr "خانه"
+
+#: src/Pages/Signup/Form.js:18
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: src/Pages/Login/Form.js:26
+#: src/Pages/Profile/EditSection.js:46
+#: src/Pages/Signup/Form.js:49
+msgid "Password"
+msgstr "گذر واژه"
+
+#: src/Pages/Login/Form.js:38
+#: src/Pages/Login/Header.js:13
+msgid "Sign in"
+msgstr "ورود"
+
+#: src/Pages/Signup/Form.js:63
+#: src/Pages/Signup/Header.js:14
+msgid "Sign up"
+msgstr "ثبت نام"
+
 #: src/Pages/home-page/Header.js:9
 msgid "book net"
 msgstr "بوک‌نت"
 
-#: src/Pages/home-page/Navbar.js:7
+#: src/Pages/home-page/Navbar.js:8
 msgid "contact"
 msgstr "تماس با ما"
 
@@ -25,7 +72,12 @@ msgstr "تماس با ما"
 msgid "contact us"
 msgstr "تماس با ما"
 
-#: src/Pages/home-page/Shelf.js:25
+#: src/Pages/Profile/EditSection.js:35
+#: src/Pages/Profile/EditSection.js:60
+msgid "edit"
+msgstr "ویرایش"
+
+#: src/Pages/home-page/Shelf.js:28
 msgid "falsafe"
 msgstr "فلسفه"
 
@@ -49,19 +101,23 @@ msgstr "فرض ما بر این است که کسی که به این صفحه و 
 msgid "info p 2"
 msgstr "بیایید با هم صادق باشیم: کتاب‌خوان شدن، گاهی به یک تصادف وابسته استو ممکن است همه‌ی آدم‌ها در مسیر زندگی‌شان تصادفی را تجربه نکردهباشند که به سمت کتاب‌ها هدایت شوند. کم نیستند آدم‌هایی که کتابخواندن را نه یک کار معمولی و البته لذت‌بخش که یک امر پیچیده و گاهاًدشوار می‌پندارند. ما در عصری زندگی می‌کنیم که دستیابی به اطلاعات (ازهر نوع) ساده‌تر و سریع‌تر از هر زمان دیگری ممکن است و احتمالاً درقیاس با شبکه‌های اجتماعی و موتورهای جستجو و…، کتاب گزینه‌ی سریع وخوشایندی برای پر کردن اوقات نیست! بله، حتی کتاب‌خوان‌ترین آدم‌هایدوروبر ما هم، وقت بیشتری را صرف چیزهایی جز کتاب می‌کنند."
 
-#: src/Pages/home-page/Shelf.js:21
+#: src/Pages/Profile/Navbar.js:46
+msgid "profile"
+msgstr "پروفایل"
+
+#: src/Pages/home-page/Shelf.js:24
 msgid "ravan shenasi"
 msgstr "روان‌شناسی"
 
-#: src/Pages/home-page/Shelf.js:8
+#: src/Pages/home-page/Shelf.js:11
 msgid "roman"
 msgstr "رمان"
 
-#: src/Pages/home-page/Navbar.js:19
+#: src/Pages/home-page/Navbar.js:20
 msgid "section info"
 msgstr "کتاب بخوان"
 
-#: src/Pages/home-page/Navbar.js:15
+#: src/Pages/home-page/Navbar.js:16
 msgid "services"
 msgstr "سخن بزرگان"
 
@@ -69,20 +125,21 @@ msgstr "سخن بزرگان"
 msgid "shekspier"
 msgstr "شکسپیر"
 
-#: src/Pages/home-page/Shelf.js:7
-#: src/Pages/home-page/Shelf.js:11
-#: src/Pages/home-page/Shelf.js:16
-#: src/Pages/home-page/Shelf.js:20
-#: src/Pages/home-page/Shelf.js:24
-#: src/Pages/home-page/Shelf.js:28
+#: src/Pages/home-page/Shelf.js:10
+#: src/Pages/home-page/Shelf.js:14
+#: src/Pages/home-page/Shelf.js:19
+#: src/Pages/home-page/Shelf.js:23
+#: src/Pages/home-page/Shelf.js:27
+#: src/Pages/home-page/Shelf.js:31
 msgid "shelf"
 msgstr "قفسه‌"
 
-#: src/Pages/home-page/Navbar.js:11
+#: src/Pages/Profile/Navbar.js:37
+#: src/Pages/home-page/Navbar.js:12
 msgid "shelfs"
 msgstr "قفسه‌ها"
 
-#: src/Pages/home-page/Shelf.js:17
+#: src/Pages/home-page/Shelf.js:20
 msgid "shero adabiat"
 msgstr "شعر و ادبیات"
 
@@ -99,11 +156,11 @@ msgstr "جامعه وقتی فرزانگی و سعادت می‌یابد که م
 msgid "speach of the big "
 msgstr "سخن بزرگان"
 
-#: src/Pages/home-page/Shelf.js:29
+#: src/Pages/home-page/Shelf.js:32
 msgid "tanz"
 msgstr "طنز"
 
-#: src/Pages/home-page/Shelf.js:12
+#: src/Pages/home-page/Shelf.js:15
 msgid "tarikhi"
 msgstr "تاریخی"
 

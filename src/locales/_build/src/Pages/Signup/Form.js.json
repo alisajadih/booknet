@@ -1,0 +1,42 @@
+{
+  "Last Name": {
+    "origin": [
+      [
+        "src/Pages/Signup/Form.js",
+        18
+      ]
+    ]
+  },
+  "First Name": {
+    "origin": [
+      [
+        "src/Pages/Signup/Form.js",
+        30
+      ]
+    ]
+  },
+  "Email Address": {
+    "origin": [
+      [
+        "src/Pages/Signup/Form.js",
+        39
+      ]
+    ]
+  },
+  "Password": {
+    "origin": [
+      [
+        "src/Pages/Signup/Form.js",
+        49
+      ]
+    ]
+  },
+  "Sign up": {
+    "origin": [
+      [
+        "src/Pages/Signup/Form.js",
+        63
+      ]
+    ]
+  }
+}

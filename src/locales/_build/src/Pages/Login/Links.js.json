@@ -1,0 +1,18 @@
+{
+  "Don't have an account? Sign Up": {
+    "origin": [
+      [
+        "src/Pages/Login/Links.js",
+        10
+      ]
+    ]
+  },
+  "Back to home": {
+    "origin": [
+      [
+        "src/Pages/Login/Links.js",
+        15
+      ]
+    ]
+  }
+}

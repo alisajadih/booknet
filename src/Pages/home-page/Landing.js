@@ -5,8 +5,11 @@ import { Information } from "./Information";
 import { Services } from "./Services";
 import { Shelf } from "./Shelf";
 import { Footer } from "./Footer";
+import { useRTLBody } from "shared/useRTLBody";
+import { Contact } from "./Contact";
 
 export function Landing() {
+  useRTLBody(false);
   return (
     <>
       <Navbar />
@@ -17,6 +20,7 @@ export function Landing() {
       <div className="clear-fix"></div>
       <Shelf />
       <div className="clear-fix"></div>
+      <Contact />
       <Footer />
     </>
   );

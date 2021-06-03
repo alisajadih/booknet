@@ -5,6 +5,8 @@ import voltaire from "styles/imgs/services/voltaire.jpg";
 import soghrat from "styles/imgs/services/soghrat.jpg";
 import shekspier from "styles/imgs/services/shekspier.jpg";
 import { ServiceItem } from "./ServiceItem";
+import { HASHES } from "shared/constants";
+import { useScrollByRouteHash } from "shared/useScrollByRouteHash";
 
 const serviceItem = [
   {
@@ -30,8 +32,9 @@ const serviceItem = [
 ];
 
 export function Services() {
+  const ref =useScrollByRouteHash({hash : HASHES.SERVICES})
   return (
-    <section id="services">
+    <section id="services" ref={ref}>
       <div className="container">
         <div className="row">
           <h2>{i18n._("speach of the big ")}</h2>

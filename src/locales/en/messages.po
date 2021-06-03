@@ -13,11 +13,58 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/Pages/Signup/Links.js:10
+msgid "Already have an account? Sign in"
+msgstr "Already have an account? Sign in"
+
+#: src/Pages/Login/Links.js:15
+#: src/Pages/Signup/Links.js:15
+msgid "Back to home"
+msgstr "Back to home"
+
+#: src/Pages/Login/Links.js:10
+msgid "Don't have an account? Sign Up"
+msgstr "Don't have an account? Sign Up"
+
+#: src/Pages/Login/Form.js:16
+#: src/Pages/Profile/EditSection.js:21
+#: src/Pages/Signup/Form.js:39
+msgid "Email Address"
+msgstr "Email Address"
+
+#: src/Pages/Signup/Form.js:30
+msgid "First Name"
+msgstr "First Name"
+
+#: src/Pages/Profile/Navbar.js:27
+msgid "Home"
+msgstr "Home"
+
+#: src/Pages/Signup/Form.js:18
+msgid "Last Name"
+msgstr "Last Name"
+
+#: src/Pages/Login/Form.js:26
+#: src/Pages/Profile/EditSection.js:46
+#: src/Pages/Signup/Form.js:49
+msgid "Password"
+msgstr "Password"
+
+#: src/Pages/Login/Form.js:38
+#: src/Pages/Login/Header.js:13
+msgid "Sign in"
+msgstr "Sign in"
+
+#: src/Pages/Signup/Form.js:63
+#: src/Pages/Signup/Header.js:14
+msgid "Sign up"
+msgstr "Sign up"
+
 #: src/Pages/home-page/Header.js:9
 msgid "book net"
 msgstr "book net"
 
-#: src/Pages/home-page/Navbar.js:7
+#: src/Pages/home-page/Navbar.js:8
 msgid "contact"
 msgstr "contact"
 
@@ -25,7 +72,12 @@ msgstr "contact"
 msgid "contact us"
 msgstr "contact us"
 
-#: src/Pages/home-page/Shelf.js:25
+#: src/Pages/Profile/EditSection.js:35
+#: src/Pages/Profile/EditSection.js:60
+msgid "edit"
+msgstr "edit"
+
+#: src/Pages/home-page/Shelf.js:28
 msgid "falsafe"
 msgstr "falsafe"
 
@@ -49,19 +101,23 @@ msgstr "info p 1"
 msgid "info p 2"
 msgstr "info p 2"
 
-#: src/Pages/home-page/Shelf.js:21
+#: src/Pages/Profile/Navbar.js:46
+msgid "profile"
+msgstr "profile"
+
+#: src/Pages/home-page/Shelf.js:24
 msgid "ravan shenasi"
 msgstr "ravan shenasi"
 
-#: src/Pages/home-page/Shelf.js:8
+#: src/Pages/home-page/Shelf.js:11
 msgid "roman"
 msgstr "roman"
 
-#: src/Pages/home-page/Navbar.js:19
+#: src/Pages/home-page/Navbar.js:20
 msgid "section info"
 msgstr "section info"
 
-#: src/Pages/home-page/Navbar.js:15
+#: src/Pages/home-page/Navbar.js:16
 msgid "services"
 msgstr "services"
 
@@ -69,20 +125,21 @@ msgstr "services"
 msgid "shekspier"
 msgstr "shekspier"
 
-#: src/Pages/home-page/Shelf.js:7
-#: src/Pages/home-page/Shelf.js:11
-#: src/Pages/home-page/Shelf.js:16
-#: src/Pages/home-page/Shelf.js:20
-#: src/Pages/home-page/Shelf.js:24
-#: src/Pages/home-page/Shelf.js:28
+#: src/Pages/home-page/Shelf.js:10
+#: src/Pages/home-page/Shelf.js:14
+#: src/Pages/home-page/Shelf.js:19
+#: src/Pages/home-page/Shelf.js:23
+#: src/Pages/home-page/Shelf.js:27
+#: src/Pages/home-page/Shelf.js:31
 msgid "shelf"
 msgstr "shelf"
 
-#: src/Pages/home-page/Navbar.js:11
+#: src/Pages/Profile/Navbar.js:37
+#: src/Pages/home-page/Navbar.js:12
 msgid "shelfs"
 msgstr "shelfs"
 
-#: src/Pages/home-page/Shelf.js:17
+#: src/Pages/home-page/Shelf.js:20
 msgid "shero adabiat"
 msgstr "shero adabiat"
 
@@ -99,11 +156,11 @@ msgstr "soqrat content"
 msgid "speach of the big "
 msgstr "speach of the big "
 
-#: src/Pages/home-page/Shelf.js:29
+#: src/Pages/home-page/Shelf.js:32
 msgid "tanz"
 msgstr "tanz"
 
-#: src/Pages/home-page/Shelf.js:12
+#: src/Pages/home-page/Shelf.js:15
 msgid "tarikhi"
 msgstr "tarikhi"
 

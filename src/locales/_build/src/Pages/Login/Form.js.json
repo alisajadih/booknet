@@ -1,0 +1,26 @@
+{
+  "Email Address": {
+    "origin": [
+      [
+        "src/Pages/Login/Form.js",
+        16
+      ]
+    ]
+  },
+  "Password": {
+    "origin": [
+      [
+        "src/Pages/Login/Form.js",
+        26
+      ]
+    ]
+  },
+  "Sign in": {
+    "origin": [
+      [
+        "src/Pages/Login/Form.js",
+        38
+      ]
+    ]
+  }
+}

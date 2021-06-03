@@ -1,0 +1,30 @@
+{
+  "Email Address": {
+    "origin": [
+      [
+        "src/Pages/Profile/EditSection.js",
+        21
+      ]
+    ]
+  },
+  "edit": {
+    "origin": [
+      [
+        "src/Pages/Profile/EditSection.js",
+        35
+      ],
+      [
+        "src/Pages/Profile/EditSection.js",
+        60
+      ]
+    ]
+  },
+  "Password": {
+    "origin": [
+      [
+        "src/Pages/Profile/EditSection.js",
+        46
+      ]
+    ]
+  }
+}

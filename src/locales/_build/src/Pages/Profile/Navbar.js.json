@@ -1,0 +1,26 @@
+{
+  "Home": {
+    "origin": [
+      [
+        "src/Pages/Profile/Navbar.js",
+        27
+      ]
+    ]
+  },
+  "shelfs": {
+    "origin": [
+      [
+        "src/Pages/Profile/Navbar.js",
+        37
+      ]
+    ]
+  },
+  "profile": {
+    "origin": [
+      [
+        "src/Pages/Profile/Navbar.js",
+        46
+      ]
+    ]
+  }
+}
