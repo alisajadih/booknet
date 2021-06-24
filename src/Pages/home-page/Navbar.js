@@ -2,6 +2,7 @@ import * as React from "react";
 import { i18n } from "@lingui/core";
 import { NavItem } from "./NavItem";
 import LogoWhite from "styles/imgs/logowhite.png";
+import { authMenuItems } from "shared/constants";
 
 const menuItems = [
   {
@@ -20,14 +21,7 @@ const menuItems = [
     value: i18n._("section info"),
     href: "/#section-info",
   },
-  {
-    value: i18n._("Sign in"),
-    href: "/login",
-  },
-  {
-    value: i18n._("Sign up"),
-    href: "/signup",
-  },
+  ...authMenuItems
 ];
 
 export function Navbar() {

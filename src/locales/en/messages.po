@@ -32,15 +32,15 @@ msgstr "Don't have an account? Sign Up"
 msgid "Email Address"
 msgstr "Email Address"
 
-#: src/Pages/Signup/Form.js:30
+#: src/Pages/Signup/Form.js:20
 msgid "First Name"
 msgstr "First Name"
 
-#: src/Pages/Profile/Navbar.js:27
+#: src/Pages/Profile/Navbar.js:25
 msgid "Home"
 msgstr "Home"
 
-#: src/Pages/Signup/Form.js:18
+#: src/Pages/Signup/Form.js:29
 msgid "Last Name"
 msgstr "Last Name"
 
@@ -52,32 +52,75 @@ msgstr "Password"
 
 #: src/Pages/Login/Form.js:38
 #: src/Pages/Login/Header.js:13
+#: src/shared/constants.js:44
 msgid "Sign in"
 msgstr "Sign in"
 
 #: src/Pages/Signup/Form.js:63
 #: src/Pages/Signup/Header.js:14
+#: src/shared/constants.js:48
 msgid "Sign up"
 msgstr "Sign up"
+
+#: src/Pages/book-detail/BookCardInformation.js:41
+msgid "book entesharat"
+msgstr "book entesharat"
+
+#: src/Pages/book-detail/BookCardInformation.js:38
+msgid "book motarjem"
+msgstr "book motarjem"
+
+#: src/shared/books.js:23
+#: src/shared/books.js:27
+#: src/shared/books.js:31
+#: src/shared/books.js:35
+#: src/shared/books.js:39
+#: src/shared/books.js:43
+#: src/shared/books.js:47
+#: src/shared/books.js:51
+#: src/shared/books.js:55
+#: src/shared/books.js:59
+#: src/shared/books.js:63
+#: src/shared/books.js:67
+#: src/shared/books.js:71
+#: src/shared/books.js:75
+#: src/shared/books.js:79
+#: src/shared/books.js:83
+#: src/shared/books.js:87
+#: src/shared/books.js:91
+msgid "book name"
+msgstr "book name"
 
 #: src/Pages/home-page/Header.js:9
 msgid "book net"
 msgstr "book net"
 
-#: src/Pages/home-page/Navbar.js:8
+#: src/Pages/book-detail/BookCardInformation.js:35
+msgid "book nevisande"
+msgstr "book nevisande"
+
+#: src/Pages/home-page/Navbar.js:9
 msgid "contact"
 msgstr "contact"
 
-#: src/Pages/home-page/Contact.js:9
+#: src/Pages/home-page/Contact.js:12
 msgid "contact us"
 msgstr "contact us"
+
+#: src/Pages/book-detail/BookCardInformation.js:61
+msgid "digikala"
+msgstr "digikala"
+
+#: src/Pages/book-detail/BookCardInformation.js:52
+msgid "download"
+msgstr "download"
 
 #: src/Pages/Profile/EditSection.js:35
 #: src/Pages/Profile/EditSection.js:60
 msgid "edit"
 msgstr "edit"
 
-#: src/Pages/home-page/Shelf.js:28
+#: src/shared/constants.js:32
 msgid "falsafe"
 msgstr "falsafe"
 
@@ -89,93 +132,113 @@ msgstr "go to shelf"
 msgid "header text"
 msgstr "header text"
 
-#: src/Pages/home-page/Information.js:9
+#: src/Pages/home-page/Information.js:12
 msgid "info header"
 msgstr "info header"
 
-#: src/Pages/home-page/Information.js:11
+#: src/Pages/home-page/Information.js:14
 msgid "info p 1"
 msgstr "info p 1"
 
-#: src/Pages/home-page/Information.js:12
+#: src/Pages/home-page/Information.js:15
 msgid "info p 2"
 msgstr "info p 2"
 
-#: src/Pages/Profile/Navbar.js:46
+#: src/Pages/book-detail/BookCardInformation.js:74
+msgid "moarefi book"
+msgstr "moarefi book"
+
+#: src/Pages/Profile/Navbar.js:44
 msgid "profile"
 msgstr "profile"
 
-#: src/Pages/home-page/Shelf.js:24
+#: src/shared/constants.js:27
 msgid "ravan shenasi"
 msgstr "ravan shenasi"
 
-#: src/Pages/home-page/Shelf.js:11
+#: src/shared/constants.js:12
 msgid "roman"
 msgstr "roman"
 
-#: src/Pages/home-page/Navbar.js:20
+#: src/Pages/shelf-detail/BookResults.js:25
+msgid "search in books"
+msgstr "search in books"
+
+#: src/Pages/home-page/Navbar.js:21
 msgid "section info"
 msgstr "section info"
 
-#: src/Pages/home-page/Navbar.js:16
+#: src/Pages/book-detail/Comments.js:36
+msgid "send"
+msgstr "send"
+
+#: src/Pages/home-page/Navbar.js:17
 msgid "services"
 msgstr "services"
 
-#: src/Pages/home-page/Services.js:27
+#: src/Pages/home-page/Services.js:29
 msgid "shekspier"
 msgstr "shekspier"
 
-#: src/Pages/home-page/Shelf.js:10
-#: src/Pages/home-page/Shelf.js:14
-#: src/Pages/home-page/Shelf.js:19
-#: src/Pages/home-page/Shelf.js:23
-#: src/Pages/home-page/Shelf.js:27
-#: src/Pages/home-page/Shelf.js:31
+#: src/shared/constants.js:11
+#: src/shared/constants.js:16
+#: src/shared/constants.js:21
+#: src/shared/constants.js:26
+#: src/shared/constants.js:31
+#: src/shared/constants.js:36
 msgid "shelf"
 msgstr "shelf"
 
-#: src/Pages/Profile/Navbar.js:37
-#: src/Pages/home-page/Navbar.js:12
+#: src/Pages/Profile/Navbar.js:35
+#: src/Pages/home-page/Navbar.js:13
 msgid "shelfs"
 msgstr "shelfs"
 
-#: src/Pages/home-page/Shelf.js:20
+#: src/shared/constants.js:22
 msgid "shero adabiat"
 msgstr "shero adabiat"
 
-#: src/Pages/home-page/Services.js:22
+#: src/Pages/home-page/Services.js:24
 msgid "soqrat"
 msgstr "soqrat"
 
-#: src/Pages/home-page/Services.js:23
-#: src/Pages/home-page/Services.js:28
+#: src/Pages/home-page/Services.js:25
+#: src/Pages/home-page/Services.js:30
 msgid "soqrat content"
 msgstr "soqrat content"
 
-#: src/Pages/home-page/Services.js:37
+#: src/Pages/home-page/Services.js:40
 msgid "speach of the big "
 msgstr "speach of the big "
 
-#: src/Pages/home-page/Shelf.js:32
+#: src/shared/constants.js:37
 msgid "tanz"
 msgstr "tanz"
 
-#: src/Pages/home-page/Shelf.js:15
+#: src/shared/constants.js:17
 msgid "tarikhi"
 msgstr "tarikhi"
 
-#: src/Pages/home-page/Services.js:17
+#: src/Pages/book-detail/Comments.js:19
+msgid "users comments"
+msgstr "users comments"
+
+#: src/Pages/home-page/Services.js:19
 msgid "velter"
 msgstr "velter"
 
-#: src/Pages/home-page/Services.js:18
+#: src/Pages/home-page/Services.js:20
 msgid "velter content"
 msgstr "velter content"
 
-#: src/Pages/home-page/Services.js:12
+#: src/Pages/home-page/Services.js:14
 msgid "victor hogo"
 msgstr "victor hogo"
 
-#: src/Pages/home-page/Services.js:13
+#: src/Pages/home-page/Services.js:15
 msgid "victor hogo content"
 msgstr "victor hogo content"
+
+#: src/Pages/book-detail/Comments.js:26
+msgid "write your comment"
+msgstr "write your comment"

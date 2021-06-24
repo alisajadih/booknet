@@ -5,7 +5,7 @@ import { Information } from "./Information";
 import { Services } from "./Services";
 import { Shelf } from "./Shelf";
 import { Footer } from "./Footer";
-import { useRTLBody } from "shared/useRTLBody";
+import { useRTLBody } from "shared/hooks";
 import { Contact } from "./Contact";
 
 export function Landing() {

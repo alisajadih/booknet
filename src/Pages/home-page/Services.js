@@ -6,7 +6,7 @@ import soghrat from "styles/imgs/services/soghrat.jpg";
 import shekspier from "styles/imgs/services/shekspier.jpg";
 import { ServiceItem } from "./ServiceItem";
 import { HASHES } from "shared/constants";
-import { useScrollByRouteHash } from "shared/useScrollByRouteHash";
+import { useScrollByRouteHash } from "shared/hooks";
 
 const serviceItem = [
   {

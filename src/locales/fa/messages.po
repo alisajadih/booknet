@@ -32,15 +32,15 @@ msgstr "حساب کاربری ندارید؟ ثبت نام کنید."
 msgid "Email Address"
 msgstr "ایمیل"
 
-#: src/Pages/Signup/Form.js:30
+#: src/Pages/Signup/Form.js:20
 msgid "First Name"
 msgstr "نام"
 
-#: src/Pages/Profile/Navbar.js:27
+#: src/Pages/Profile/Navbar.js:25
 msgid "Home"
 msgstr "خانه"
 
-#: src/Pages/Signup/Form.js:18
+#: src/Pages/Signup/Form.js:29
 msgid "Last Name"
 msgstr "نام خانوادگی"
 
@@ -52,32 +52,75 @@ msgstr "گذر واژه"
 
 #: src/Pages/Login/Form.js:38
 #: src/Pages/Login/Header.js:13
+#: src/shared/constants.js:44
 msgid "Sign in"
 msgstr "ورود"
 
 #: src/Pages/Signup/Form.js:63
 #: src/Pages/Signup/Header.js:14
+#: src/shared/constants.js:48
 msgid "Sign up"
 msgstr "ثبت نام"
+
+#: src/Pages/book-detail/BookCardInformation.js:41
+msgid "book entesharat"
+msgstr "انتشارات کتاب"
+
+#: src/Pages/book-detail/BookCardInformation.js:38
+msgid "book motarjem"
+msgstr "مترجم کتاب"
+
+#: src/shared/books.js:23
+#: src/shared/books.js:27
+#: src/shared/books.js:31
+#: src/shared/books.js:35
+#: src/shared/books.js:39
+#: src/shared/books.js:43
+#: src/shared/books.js:47
+#: src/shared/books.js:51
+#: src/shared/books.js:55
+#: src/shared/books.js:59
+#: src/shared/books.js:63
+#: src/shared/books.js:67
+#: src/shared/books.js:71
+#: src/shared/books.js:75
+#: src/shared/books.js:79
+#: src/shared/books.js:83
+#: src/shared/books.js:87
+#: src/shared/books.js:91
+msgid "book name"
+msgstr "کتاب فلان هستم"
 
 #: src/Pages/home-page/Header.js:9
 msgid "book net"
 msgstr "بوک‌نت"
 
-#: src/Pages/home-page/Navbar.js:8
+#: src/Pages/book-detail/BookCardInformation.js:35
+msgid "book nevisande"
+msgstr "نویسنده کتاب"
+
+#: src/Pages/home-page/Navbar.js:9
 msgid "contact"
 msgstr "تماس با ما"
 
-#: src/Pages/home-page/Contact.js:9
+#: src/Pages/home-page/Contact.js:12
 msgid "contact us"
 msgstr "تماس با ما"
+
+#: src/Pages/book-detail/BookCardInformation.js:61
+msgid "digikala"
+msgstr "برو به دیجی‌کالا"
+
+#: src/Pages/book-detail/BookCardInformation.js:52
+msgid "download"
+msgstr "دانلود کتاب"
 
 #: src/Pages/Profile/EditSection.js:35
 #: src/Pages/Profile/EditSection.js:60
 msgid "edit"
 msgstr "ویرایش"
 
-#: src/Pages/home-page/Shelf.js:28
+#: src/shared/constants.js:32
 msgid "falsafe"
 msgstr "فلسفه"
 
@@ -89,93 +132,113 @@ msgstr "به سوی قفسه‌ها"
 msgid "header text"
 msgstr "شیرین کردن قهومون &#x2615; با لذت کتاب خواندن &#x1F4DA; و گپ و گفتگو&#x1F4AC; درباره‌ی کتاب‌هایی که خواندیم"
 
-#: src/Pages/home-page/Information.js:9
+#: src/Pages/home-page/Information.js:12
 msgid "info header"
 msgstr " &#x1F914;چرا باید کتاب بخوانیم؟"
 
-#: src/Pages/home-page/Information.js:11
+#: src/Pages/home-page/Information.js:14
 msgid "info p 1"
 msgstr "فرض ما بر این است که کسی که به این صفحه و مطلب رسیده، حتماً یک ربط وارتباطی با کتاب و کتاب‌خوانی دارد و حتماً چندتایی کتاب در فهرست«خوانده شده» هایش هست. همین‌طور احتمال می‌دهیم که اگر لذت کتابخواندن را تجربه کرده باشید، احتمالاً به توضیح و شرح بیشتری برایفواید این عادت خوب نیاز ندارید. اما مگر همه‌ی ما و تمامکتاب‌خوان‌های دنیا از ابتدا کتاب دستشان بوده است؟"
 
-#: src/Pages/home-page/Information.js:12
+#: src/Pages/home-page/Information.js:15
 msgid "info p 2"
 msgstr "بیایید با هم صادق باشیم: کتاب‌خوان شدن، گاهی به یک تصادف وابسته استو ممکن است همه‌ی آدم‌ها در مسیر زندگی‌شان تصادفی را تجربه نکردهباشند که به سمت کتاب‌ها هدایت شوند. کم نیستند آدم‌هایی که کتابخواندن را نه یک کار معمولی و البته لذت‌بخش که یک امر پیچیده و گاهاًدشوار می‌پندارند. ما در عصری زندگی می‌کنیم که دستیابی به اطلاعات (ازهر نوع) ساده‌تر و سریع‌تر از هر زمان دیگری ممکن است و احتمالاً درقیاس با شبکه‌های اجتماعی و موتورهای جستجو و…، کتاب گزینه‌ی سریع وخوشایندی برای پر کردن اوقات نیست! بله، حتی کتاب‌خوان‌ترین آدم‌هایدوروبر ما هم، وقت بیشتری را صرف چیزهایی جز کتاب می‌کنند."
 
-#: src/Pages/Profile/Navbar.js:46
+#: src/Pages/book-detail/BookCardInformation.js:74
+msgid "moarefi book"
+msgstr "معرفی کتاب"
+
+#: src/Pages/Profile/Navbar.js:44
 msgid "profile"
 msgstr "پروفایل"
 
-#: src/Pages/home-page/Shelf.js:24
+#: src/shared/constants.js:27
 msgid "ravan shenasi"
 msgstr "روان‌شناسی"
 
-#: src/Pages/home-page/Shelf.js:11
+#: src/shared/constants.js:12
 msgid "roman"
 msgstr "رمان"
 
-#: src/Pages/home-page/Navbar.js:20
+#: src/Pages/shelf-detail/BookResults.js:25
+msgid "search in books"
+msgstr "جستجو در کتاب‌ها"
+
+#: src/Pages/home-page/Navbar.js:21
 msgid "section info"
 msgstr "کتاب بخوان"
 
-#: src/Pages/home-page/Navbar.js:16
+#: src/Pages/book-detail/Comments.js:36
+msgid "send"
+msgstr "ارسال"
+
+#: src/Pages/home-page/Navbar.js:17
 msgid "services"
 msgstr "سخن بزرگان"
 
-#: src/Pages/home-page/Services.js:27
+#: src/Pages/home-page/Services.js:29
 msgid "shekspier"
 msgstr "شکسپیر"
 
-#: src/Pages/home-page/Shelf.js:10
-#: src/Pages/home-page/Shelf.js:14
-#: src/Pages/home-page/Shelf.js:19
-#: src/Pages/home-page/Shelf.js:23
-#: src/Pages/home-page/Shelf.js:27
-#: src/Pages/home-page/Shelf.js:31
+#: src/shared/constants.js:11
+#: src/shared/constants.js:16
+#: src/shared/constants.js:21
+#: src/shared/constants.js:26
+#: src/shared/constants.js:31
+#: src/shared/constants.js:36
 msgid "shelf"
 msgstr "قفسه‌"
 
-#: src/Pages/Profile/Navbar.js:37
-#: src/Pages/home-page/Navbar.js:12
+#: src/Pages/Profile/Navbar.js:35
+#: src/Pages/home-page/Navbar.js:13
 msgid "shelfs"
 msgstr "قفسه‌ها"
 
-#: src/Pages/home-page/Shelf.js:20
+#: src/shared/constants.js:22
 msgid "shero adabiat"
 msgstr "شعر و ادبیات"
 
-#: src/Pages/home-page/Services.js:22
+#: src/Pages/home-page/Services.js:24
 msgid "soqrat"
 msgstr "سقراط"
 
-#: src/Pages/home-page/Services.js:23
-#: src/Pages/home-page/Services.js:28
+#: src/Pages/home-page/Services.js:25
+#: src/Pages/home-page/Services.js:30
 msgid "soqrat content"
 msgstr "جامعه وقتی فرزانگی و سعادت می‌یابد که مطالعه کار روزانه‌اش باشد"
 
-#: src/Pages/home-page/Services.js:37
+#: src/Pages/home-page/Services.js:40
 msgid "speach of the big "
 msgstr "سخن بزرگان"
 
-#: src/Pages/home-page/Shelf.js:32
+#: src/shared/constants.js:37
 msgid "tanz"
 msgstr "طنز"
 
-#: src/Pages/home-page/Shelf.js:15
+#: src/shared/constants.js:17
 msgid "tarikhi"
 msgstr "تاریخی"
 
-#: src/Pages/home-page/Services.js:17
+#: src/Pages/book-detail/Comments.js:19
+msgid "users comments"
+msgstr "نظرات کاربران"
+
+#: src/Pages/home-page/Services.js:19
 msgid "velter"
 msgstr "ولتر"
 
-#: src/Pages/home-page/Services.js:18
+#: src/Pages/home-page/Services.js:20
 msgid "velter content"
 msgstr "برگ های کتاب به منزله بال هایی هستند که روح ما را به عالم نور وروشنایی پرواز می دهند"
 
-#: src/Pages/home-page/Services.js:12
+#: src/Pages/home-page/Services.js:14
 msgid "victor hogo"
 msgstr "ویکتور هوگو"
 
-#: src/Pages/home-page/Services.js:13
+#: src/Pages/home-page/Services.js:15
 msgid "victor hogo content"
 msgstr "خوشبخت، کسی است که به یکی از این دو چیز دسترسی دارد، کتاب‌هایخوب یا دوستانی که اهل کتاب باشند"
+
+#: src/Pages/book-detail/Comments.js:26
+msgid "write your comment"
+msgstr "نظر خود را بنویسید"

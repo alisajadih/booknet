@@ -1,0 +1,94 @@
+{
+  "shelf": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        11
+      ],
+      [
+        "src/shared/constants.js",
+        16
+      ],
+      [
+        "src/shared/constants.js",
+        21
+      ],
+      [
+        "src/shared/constants.js",
+        26
+      ],
+      [
+        "src/shared/constants.js",
+        31
+      ],
+      [
+        "src/shared/constants.js",
+        36
+      ]
+    ]
+  },
+  "roman": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        12
+      ]
+    ]
+  },
+  "tarikhi": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        17
+      ]
+    ]
+  },
+  "shero adabiat": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        22
+      ]
+    ]
+  },
+  "ravan shenasi": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        27
+      ]
+    ]
+  },
+  "falsafe": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        32
+      ]
+    ]
+  },
+  "tanz": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        37
+      ]
+    ]
+  },
+  "Sign in": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        44
+      ]
+    ]
+  },
+  "Sign up": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        48
+      ]
+    ]
+  }
+}

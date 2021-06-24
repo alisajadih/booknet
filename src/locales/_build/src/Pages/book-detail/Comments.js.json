@@ -1,0 +1,26 @@
+{
+  "users comments": {
+    "origin": [
+      [
+        "src/Pages/book-detail/Comments.js",
+        19
+      ]
+    ]
+  },
+  "write your comment": {
+    "origin": [
+      [
+        "src/Pages/book-detail/Comments.js",
+        26
+      ]
+    ]
+  },
+  "send": {
+    "origin": [
+      [
+        "src/Pages/book-detail/Comments.js",
+        36
+      ]
+    ]
+  }
+}

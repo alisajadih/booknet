@@ -6,7 +6,7 @@ import "./styles/landing.css";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider, CssBaseline } from "@material-ui/core";
 import { theme } from "config/theme";
-import { RTLProvider } from "shared/RTLProvider";
+import { RTLProvider } from "shared/providers";
 
 configI18n();
 

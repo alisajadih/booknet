@@ -1,13 +1,11 @@
 import { AppBar, makeStyles, Toolbar, Box, Link } from "@material-ui/core";
-import { useRTLBody } from "shared/useRTLBody";
 import LogoBlack from "styles/imgs/logoblack.png";
 import { i18n } from "@lingui/core";
 import { NavLink as RRDLink } from "react-router-dom";
-import { HASHES, SHELFS_ROUTE_STATE } from "shared/constants";
+import { HASHES } from "shared/constants";
 
 export function Navbar(props) {
   const classes = useStyles(props);
-  useRTLBody();
   return (
     <AppBar className={classes.appbar} variant="outlined" position="static">
       <Toolbar>

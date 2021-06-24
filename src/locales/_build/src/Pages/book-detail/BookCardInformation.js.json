@@ -1,0 +1,50 @@
+{
+  "book nevisande": {
+    "origin": [
+      [
+        "src/Pages/book-detail/BookCardInformation.js",
+        35
+      ]
+    ]
+  },
+  "book motarjem": {
+    "origin": [
+      [
+        "src/Pages/book-detail/BookCardInformation.js",
+        38
+      ]
+    ]
+  },
+  "book entesharat": {
+    "origin": [
+      [
+        "src/Pages/book-detail/BookCardInformation.js",
+        41
+      ]
+    ]
+  },
+  "download": {
+    "origin": [
+      [
+        "src/Pages/book-detail/BookCardInformation.js",
+        52
+      ]
+    ]
+  },
+  "digikala": {
+    "origin": [
+      [
+        "src/Pages/book-detail/BookCardInformation.js",
+        61
+      ]
+    ]
+  },
+  "moarefi book": {
+    "origin": [
+      [
+        "src/Pages/book-detail/BookCardInformation.js",
+        74
+      ]
+    ]
+  }
+}

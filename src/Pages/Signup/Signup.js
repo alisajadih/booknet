@@ -1,7 +1,7 @@
 import { makeStyles, Grid } from "@material-ui/core";
 import { SideImage } from "./SideImage";
 import { SideForm } from "./SideForm";
-import { useRTLBody } from "shared/useRTLBody";
+import { useRTLBody } from "shared/hooks";
 
 export function Signup(props) {
   const classes = useStyles();

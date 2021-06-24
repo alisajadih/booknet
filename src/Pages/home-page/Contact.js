@@ -1,6 +1,6 @@
 import * as React from "react";
 import { i18n } from "@lingui/core";
-import { useScrollByRouteHash } from "shared/useScrollByRouteHash";
+import { useScrollByRouteHash } from "shared/hooks";
 import { HASHES } from "shared/constants";
 
 export function Contact() {

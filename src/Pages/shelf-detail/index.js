@@ -1,0 +1,1 @@
+export {ShelfDetail} from './ShelfDetail'

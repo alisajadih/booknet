@@ -1,7 +1,7 @@
 import * as React from "react";
 import { i18n } from "@lingui/core";
 import { HASHES } from "shared/constants";
-import { useScrollByRouteHash } from "shared/useScrollByRouteHash";
+import { useScrollByRouteHash } from "shared/hooks";
 
 export function Information() {
   const ref = useScrollByRouteHash({ hash: HASHES.SECTION_INFO });
