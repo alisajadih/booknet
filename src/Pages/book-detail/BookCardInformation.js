@@ -132,7 +132,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
   },
   cover: {
-    width: 300,
+    width: 500,
   },
   buttons: {
     display: "flex",

@@ -20,8 +20,6 @@ export function Navbar() {
   const { enqueueSnackbar } = useSnackbar();
 
   const handleClickItem = (item) => () => {
-    // maybe better condition , idk
-    console.log(item);
     if (item.value === "logout") {
       logout();
       enqueueSnackbar(i18n._("You Logout Successfully"), {

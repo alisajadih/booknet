@@ -1,5 +1,6 @@
 import React from "react";
 import { i18n } from "@lingui/core";
+import {Link} from 'react-router-dom'
 
 export function Header() {
   return (
@@ -9,10 +10,10 @@ export function Header() {
           <h1 className="heading-1">{i18n._("book net")}</h1>
           <span className="underline"></span>
           <p className="heading-p">{i18n._("header text")}</p>
-          <a href="#shelf" id="heading-link">
+          <Link to="/#shelfs" id="heading-link">
             <span>{i18n._("go to shelf")}</span>
             <span className="material-icons bounce">south</span>
-          </a>
+          </Link>
         </div>
       </div>
     </header>

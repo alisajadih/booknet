@@ -13,6 +13,7 @@ import { useQuery } from "react-query";
 import { book, category } from "shared/fetchers";
 import { useParams } from "react-router-dom";
 import { getMapNameToCategoryId } from "./utils";
+import { useDelayedValue } from "shared/hooks/useDelayedValue";
 
 export function BookResults(props) {
   const classes = useStyles(props);
@@ -27,16 +28,20 @@ export function BookResults(props) {
 
   const activeCategoryId = mapNameToCategoryId[shelfName?.split("-").join(" ")];
 
+  const delayedSearch = useDelayedValue(search, { positiveEdgeDelay: 1000 });
+
   const { data: singleCategory } = useQuery(
     ["/category", activeCategoryId],
     category.getSingle,
     { enabled: !!activeCategoryId }
   );
+
   const { data: booksWithFilter } = useQuery(
-    ["/category", { cat_id: activeCategoryId, title: search }],
+    ["/category", { cat_id: activeCategoryId, title: delayedSearch }],
     book.get,
-    { enabled: !!activeCategoryId && !!search }
+    { enabled: !!activeCategoryId && !!delayedSearch }
   );
+
   const handleSearchChange = (e) => {
     setSearch(e.target.value);
   };
@@ -44,7 +49,7 @@ export function BookResults(props) {
   const allbooks = singleCategory?.data?.books ?? [];
   const filteredBooks = booksWithFilter?.data ?? [];
 
-  const books = !!search ? filteredBooks : allbooks;
+  const books = !!delayedSearch ? filteredBooks : allbooks;
 
   return (
     <Container className={classes.container}>
