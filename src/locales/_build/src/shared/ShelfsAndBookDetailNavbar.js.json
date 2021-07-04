@@ -2,8 +2,8 @@
   "You Logout Successfully": {
     "origin": [
       [
-        "src/Pages/home-page/Navbar.js",
-        27
+        "src/shared/ShelfsAndBookDetailNavbar.js",
+        32
       ]
     ]
   }

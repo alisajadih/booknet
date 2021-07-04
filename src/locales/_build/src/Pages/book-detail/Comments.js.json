@@ -1,9 +1,25 @@
 {
+  "comment sent successfully": {
+    "origin": [
+      [
+        "src/Pages/book-detail/Comments.js",
+        53
+      ]
+    ]
+  },
   "users comments": {
     "origin": [
       [
         "src/Pages/book-detail/Comments.js",
-        19
+        67
+      ]
+    ]
+  },
+  "username": {
+    "origin": [
+      [
+        "src/Pages/book-detail/Comments.js",
+        77
       ]
     ]
   },
@@ -11,7 +27,7 @@
     "origin": [
       [
         "src/Pages/book-detail/Comments.js",
-        26
+        90
       ]
     ]
   },
@@ -19,7 +35,11 @@
     "origin": [
       [
         "src/Pages/book-detail/Comments.js",
-        36
+        103
+      ],
+      [
+        "src/Pages/book-detail/Comments.js",
+        119
       ]
     ]
   }

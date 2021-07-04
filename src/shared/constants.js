@@ -1,4 +1,26 @@
 import { i18n } from "@lingui/core";
+
+export const token = "TOKEN";
+
+export const menuItems = [
+  {
+    value: i18n._("contact"),
+    href: "/#contact",
+  },
+  {
+    value: i18n._("shelfs"),
+    href: "/#shelfs",
+  },
+  {
+    value: i18n._("services"),
+    href: "/#services",
+  },
+  {
+    value: i18n._("section info"),
+    href: "/#section-info",
+  },
+];
+
 export const HASHES = {
   SHELFS: "#shelfs",
   SERVICES: "#services",
@@ -39,7 +61,7 @@ export const shelfItems = [
   },
 ];
 
-export const authMenuItems = [
+export const notAuthMenuItems = [
   {
     value: i18n._("Sign in"),
     href: "/login",
@@ -49,3 +71,14 @@ export const authMenuItems = [
     href: "/signup",
   },
 ];
+export const authMenuItems = [
+
+  {
+    value: i18n._("profile"),
+    href: "/profile",
+  },
+  {
+    value: i18n._("logout"),
+    href: "/",
+  }
+]

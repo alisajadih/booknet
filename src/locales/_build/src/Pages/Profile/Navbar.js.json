@@ -1,9 +1,17 @@
 {
+  "You Logout Successfully": {
+    "origin": [
+      [
+        "src/Pages/Profile/Navbar.js",
+        24
+      ]
+    ]
+  },
   "Home": {
     "origin": [
       [
         "src/Pages/Profile/Navbar.js",
-        25
+        46
       ]
     ]
   },
@@ -11,7 +19,7 @@
     "origin": [
       [
         "src/Pages/Profile/Navbar.js",
-        35
+        56
       ]
     ]
   },
@@ -19,7 +27,15 @@
     "origin": [
       [
         "src/Pages/Profile/Navbar.js",
-        44
+        65
+      ]
+    ]
+  },
+  "logout": {
+    "origin": [
+      [
+        "src/Pages/Profile/Navbar.js",
+        75
       ]
     ]
   }

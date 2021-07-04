@@ -1,9 +1,17 @@
 {
+  "You Sign up Successfully": {
+    "origin": [
+      [
+        "src/Pages/Signup/Form.js",
+        58
+      ]
+    ]
+  },
   "First Name": {
     "origin": [
       [
         "src/Pages/Signup/Form.js",
-        20
+        84
       ]
     ]
   },
@@ -11,7 +19,15 @@
     "origin": [
       [
         "src/Pages/Signup/Form.js",
-        29
+        95
+      ]
+    ]
+  },
+  "username": {
+    "origin": [
+      [
+        "src/Pages/Signup/Form.js",
+        106
       ]
     ]
   },
@@ -19,7 +35,7 @@
     "origin": [
       [
         "src/Pages/Signup/Form.js",
-        39
+        118
       ]
     ]
   },
@@ -27,7 +43,15 @@
     "origin": [
       [
         "src/Pages/Signup/Form.js",
-        49
+        130
+      ]
+    ]
+  },
+  "Confirm Password": {
+    "origin": [
+      [
+        "src/Pages/Signup/Form.js",
+        143
       ]
     ]
   },
@@ -35,7 +59,7 @@
     "origin": [
       [
         "src/Pages/Signup/Form.js",
-        63
+        158
       ]
     ]
   }

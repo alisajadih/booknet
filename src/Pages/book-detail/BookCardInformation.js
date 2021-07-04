@@ -9,11 +9,23 @@ import {
   Button,
 } from "@material-ui/core";
 import * as React from "react";
-import Book1 from "styles/imgs/books/1.jpg";
 import { i18n } from "@lingui/core";
+import { useQuery } from "react-query";
+import { useParams } from "react-router-dom";
+import { book } from "shared/fetchers";
 
 export function BookCardInformation(props) {
   const classes = useStyles(props);
+
+  const { id } = useParams();
+
+  const { data } = useQuery(["/book", id], book.getSingle, { enabled: !!id });
+
+  if (!data) return "";
+
+  const { title, description, year, publisher, authors, image, pdf, digikala } =
+    data.data;
+
   return (
     <Container className={classes.container}>
       <Grid container justify="center">
@@ -21,24 +33,24 @@ export function BookCardInformation(props) {
           <Card className={classes.root}>
             <CardMedia
               className={classes.cover}
-              image={Book1}
+              image={image}
               title="Live from space album cover"
             />
             <div className={classes.details}>
               <CardContent className={classes.content}>
-                <Grid container justifyContent="between">
+                <Grid container justify="space-between">
                   <Grid item xs={9}>
                     <Typography component="h5" variant="h5">
-                      Live From Space
+                      {title}
                     </Typography>
                     <Typography variant="subtitle1" color="textSecondary">
-                      {i18n._("book nevisande")}
+                      {i18n._("book nevisande")} : {authors[0].name}
                     </Typography>
                     <Typography variant="subtitle1" color="textSecondary">
-                      {i18n._("book motarjem")}
+                      {i18n._("year")} : {year}
                     </Typography>
                     <Typography variant="subtitle1" color="textSecondary">
-                      {i18n._("book entesharat")}
+                      {i18n._("book entesharat")} :{publisher.name}
                     </Typography>
                   </Grid>
                   <Grid item xs={3} className={classes.buttons}>
@@ -48,6 +60,9 @@ export function BookCardInformation(props) {
                       size="large"
                       fullWidth
                       className={classes.fullHeight}
+                      component="a"
+                      href={pdf}
+                      target="_blank"
                     >
                       {i18n._("download")}
                     </Button>
@@ -57,6 +72,9 @@ export function BookCardInformation(props) {
                       size="large"
                       fullWidth
                       className={classes.fullHeight}
+                      component="a"
+                      href={digikala}
+                      target="_blank"
                     >
                       {i18n._("digikala")}
                     </Button>
@@ -71,7 +89,7 @@ export function BookCardInformation(props) {
                           component="h5"
                           variant="h5"
                         >
-                         {i18n._("moarefi book")} 
+                          {i18n._("moarefi book")}
                         </Typography>
                         <Typography
                           className={classes.title}
@@ -79,15 +97,12 @@ export function BookCardInformation(props) {
                           gutterBottom
                           variant="subtitle1"
                         >
-                          alkdgjhlk adjglkj adkljgl akjdlgk jalkdjg lakdjgl
-                          jadlkgj
+                          {description}
                         </Typography>
                       </CardContent>
                     </Card>
                   </Grid>
                 </Grid>
-                {/* <div></div> */}
-                {/* <div className={classes.buttons}></div> */}
               </CardContent>
             </div>
           </Card>

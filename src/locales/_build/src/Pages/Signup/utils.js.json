@@ -1,0 +1,66 @@
+{
+  "firstName is required": {
+    "origin": [
+      [
+        "src/Pages/Signup/utils.js",
+        12
+      ]
+    ]
+  },
+  "lastName is required": {
+    "origin": [
+      [
+        "src/Pages/Signup/utils.js",
+        13
+      ]
+    ]
+  },
+  "username is required": {
+    "origin": [
+      [
+        "src/Pages/Signup/utils.js",
+        14
+      ]
+    ]
+  },
+  "email format is incorrect": {
+    "origin": [
+      [
+        "src/Pages/Signup/utils.js",
+        16
+      ]
+    ]
+  },
+  "email is required": {
+    "origin": [
+      [
+        "src/Pages/Signup/utils.js",
+        17
+      ]
+    ]
+  },
+  "Password is required": {
+    "origin": [
+      [
+        "src/Pages/Signup/utils.js",
+        19
+      ]
+    ]
+  },
+  "Password should be at least 5 characters": {
+    "origin": [
+      [
+        "src/Pages/Signup/utils.js",
+        20
+      ]
+    ]
+  },
+  "Passwords must match": {
+    "origin": [
+      [
+        "src/Pages/Signup/utils.js",
+        23
+      ]
+    ]
+  }
+}

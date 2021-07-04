@@ -1,29 +1,61 @@
 {
-  "shelf": {
+  "contact": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        7
+      ]
+    ]
+  },
+  "shelfs": {
     "origin": [
       [
         "src/shared/constants.js",
         11
+      ]
+    ]
+  },
+  "services": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        15
+      ]
+    ]
+  },
+  "section info": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        19
+      ]
+    ]
+  },
+  "shelf": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        33
       ],
       [
         "src/shared/constants.js",
-        16
+        38
       ],
       [
         "src/shared/constants.js",
-        21
+        43
       ],
       [
         "src/shared/constants.js",
-        26
+        48
       ],
       [
         "src/shared/constants.js",
-        31
+        53
       ],
       [
         "src/shared/constants.js",
-        36
+        58
       ]
     ]
   },
@@ -31,7 +63,7 @@
     "origin": [
       [
         "src/shared/constants.js",
-        12
+        34
       ]
     ]
   },
@@ -39,7 +71,7 @@
     "origin": [
       [
         "src/shared/constants.js",
-        17
+        39
       ]
     ]
   },
@@ -47,7 +79,7 @@
     "origin": [
       [
         "src/shared/constants.js",
-        22
+        44
       ]
     ]
   },
@@ -55,7 +87,7 @@
     "origin": [
       [
         "src/shared/constants.js",
-        27
+        49
       ]
     ]
   },
@@ -63,7 +95,7 @@
     "origin": [
       [
         "src/shared/constants.js",
-        32
+        54
       ]
     ]
   },
@@ -71,7 +103,7 @@
     "origin": [
       [
         "src/shared/constants.js",
-        37
+        59
       ]
     ]
   },
@@ -79,7 +111,7 @@
     "origin": [
       [
         "src/shared/constants.js",
-        44
+        66
       ]
     ]
   },
@@ -87,7 +119,23 @@
     "origin": [
       [
         "src/shared/constants.js",
-        48
+        70
+      ]
+    ]
+  },
+  "profile": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        77
+      ]
+    ]
+  },
+  "logout": {
+    "origin": [
+      [
+        "src/shared/constants.js",
+        81
       ]
     ]
   }

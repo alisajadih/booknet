@@ -1,11 +1,40 @@
+import * as React from "react";
 import { AppBar, makeStyles, Toolbar, Box, Link } from "@material-ui/core";
 import LogoBlack from "styles/imgs/logoblack.png";
 import { i18n } from "@lingui/core";
 import { NavLink as RRDLink } from "react-router-dom";
-import { authMenuItems, shelfItems } from "shared/constants";
+import { useMutation, useQuery, useQueryClient } from "react-query";
+import { category, user } from "./fetchers";
+import { getShelvesFromApiData } from "./shelvs.utils";
+import { getAuthItems } from "./navbar.utils";
+import { useAuthContext } from "./providers/AuthGuard";
+import { useSnackbar } from "notistack";
+import { _keyProfile } from "./fetchers/user";
 
 export function ShelfsAndBookDetailNavbar() {
   const classes = useStyles();
+
+  const { me } = useAuthContext();
+
+  const { data } = useQuery("/category", category.get);
+
+  const shelvs = getShelvesFromApiData(data?.data);
+
+  const { mutate: logout } = useMutation(user.logout);
+
+  const { enqueueSnackbar } = useSnackbar();
+
+  const queryClient = useQueryClient();
+
+  const handleClickItem = (item) => () => {
+    if (item.value === "logout") {
+      logout();
+      enqueueSnackbar(i18n._("You Logout Successfully"), {
+        variant: "success",
+      });
+      queryClient.invalidateQueries(_keyProfile);
+    }
+  };
 
   return (
     <AppBar className={classes.appbar} variant="outlined" position="static">
@@ -15,19 +44,21 @@ export function ShelfsAndBookDetailNavbar() {
         </RRDLink>
         <Box flexGrow="1" />
         <Box display="flex" gridGap="32px">
-          {authMenuItems.map(({ value, href }) => (
+          {getAuthItems(!!me).map(({ value, href, ...rest }) => (
             <Link
               key={value}
               component={RRDLink}
-              to={href}
               variant="h6"
               color="textPrimary"
+              to={href}
               activeClassName={classes.activeClassName}
+              exact={value === "logout"}
+              onClick={handleClickItem({ value, href, ...rest })}
             >
               {i18n._(value)}
             </Link>
           ))}
-          {shelfItems.map(({ href, subtitle }) => (
+          {shelvs.map(({ href, subtitle }) => (
             <Link
               key={subtitle}
               component={RRDLink}

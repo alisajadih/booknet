@@ -1,9 +1,25 @@
 {
+  "user updated succesfully": {
+    "origin": [
+      [
+        "src/Pages/Profile/EditSection.js",
+        46
+      ]
+    ]
+  },
+  "something went wrong": {
+    "origin": [
+      [
+        "src/Pages/Profile/EditSection.js",
+        51
+      ]
+    ]
+  },
   "Email Address": {
     "origin": [
       [
         "src/Pages/Profile/EditSection.js",
-        21
+        67
       ]
     ]
   },
@@ -11,19 +27,31 @@
     "origin": [
       [
         "src/Pages/Profile/EditSection.js",
-        35
+        83
       ],
       [
         "src/Pages/Profile/EditSection.js",
-        60
+        110
+      ],
+      [
+        "src/Pages/Profile/EditSection.js",
+        138
       ]
     ]
   },
-  "Password": {
+  "name": {
     "origin": [
       [
         "src/Pages/Profile/EditSection.js",
-        46
+        95
+      ]
+    ]
+  },
+  "username": {
+    "origin": [
+      [
+        "src/Pages/Profile/EditSection.js",
+        123
       ]
     ]
   }

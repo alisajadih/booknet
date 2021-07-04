@@ -10,6 +10,7 @@ import { Contact } from "./Contact";
 
 export function Landing() {
   useRTLBody(false);
+
   return (
     <>
       <Navbar />

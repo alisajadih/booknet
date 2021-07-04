@@ -6,6 +6,10 @@ import { Signup } from "Pages/Signup";
 import { Profile } from "Pages/Profile";
 import { ShelfDetail } from "Pages/shelf-detail";
 import { BookDetail } from "Pages/book-detail";
+import { withPermissions } from "shared/withPermissions";
+
+
+const ProfileWithPermissions = withPermissions('login')(Profile)
 
 export function App() {
   return (
@@ -13,7 +17,7 @@ export function App() {
       <Route path="/" exact component={Landing} />
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
-      <Route path="/profile" component={Profile} />
+      <Route path="/profile" component={ProfileWithPermissions} />
       <Route path="/shelfs/:shelfName" exact component={ShelfDetail} />
       <Route path="/shelfs/:shelfName/:id" component={BookDetail} />
     </React.Fragment>

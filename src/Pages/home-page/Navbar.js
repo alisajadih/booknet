@@ -2,35 +2,40 @@ import * as React from "react";
 import { i18n } from "@lingui/core";
 import { NavItem } from "./NavItem";
 import LogoWhite from "styles/imgs/logowhite.png";
-import { authMenuItems } from "shared/constants";
-
-const menuItems = [
-  {
-    value: i18n._("contact"),
-    href: "/#contact",
-  },
-  {
-    value: i18n._("shelfs"),
-    href: "/#shelfs",
-  },
-  {
-    value: i18n._("services"),
-    href: "/#services",
-  },
-  {
-    value: i18n._("section info"),
-    href: "/#section-info",
-  },
-  ...authMenuItems
-];
+import { authMenuItems, notAuthMenuItems } from "shared/constants";
+import { useAuthContext } from "shared/providers/AuthGuard";
+import { useMutation, useQueryClient } from "react-query";
+import { user } from "shared/fetchers";
+import { getMenuItems } from "shared/navbar.utils";
+import { useSnackbar } from "notistack";
+import { _keyProfile } from "shared/fetchers/user";
 
 export function Navbar() {
+  const { me } = useAuthContext();
+
+  const { mutate: logout } = useMutation(user.logout);
+
+  const queryClient = useQueryClient();
+
+  const { enqueueSnackbar } = useSnackbar();
+
+  const handleClickItem = (item) => () => {
+    // maybe better condition , idk
+    console.log(item);
+    if (item.value === "logout") {
+      logout();
+      enqueueSnackbar(i18n._("You Logout Successfully"), {
+        variant: "success",
+      });
+      queryClient.invalidateQueries(_keyProfile);
+    }
+  };
   return (
     <nav className="main-nav">
       <div className="container">
         <ul>
-          {menuItems.map((item, index) => (
-            <NavItem {...item} key={index} />
+          {getMenuItems(!!me).map((item, index) => (
+            <NavItem {...item} key={index} onClick={handleClickItem(item)} />
           ))}
         </ul>
         <button>

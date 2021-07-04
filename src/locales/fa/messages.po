@@ -22,53 +22,77 @@ msgstr "حساب کاربری دارید؟ وارد شوید"
 msgid "Back to home"
 msgstr "بازگشت به صفحه اصلی"
 
+#: src/Pages/Signup/Form.js:143
+msgid "Confirm Password"
+msgstr "تایید گذر واژه"
+
 #: src/Pages/Login/Links.js:10
 msgid "Don't have an account? Sign Up"
 msgstr "حساب کاربری ندارید؟ ثبت نام کنید."
 
-#: src/Pages/Login/Form.js:16
-#: src/Pages/Profile/EditSection.js:21
-#: src/Pages/Signup/Form.js:39
+#: src/Pages/Profile/EditSection.js:67
+#: src/Pages/Signup/Form.js:118
 msgid "Email Address"
 msgstr "ایمیل"
 
-#: src/Pages/Signup/Form.js:20
+#: src/Pages/Signup/Form.js:84
 msgid "First Name"
 msgstr "نام"
 
-#: src/Pages/Profile/Navbar.js:25
+#: src/Pages/Profile/Navbar.js:46
 msgid "Home"
 msgstr "خانه"
 
-#: src/Pages/Signup/Form.js:29
+#: src/Pages/Signup/Form.js:95
 msgid "Last Name"
 msgstr "نام خانوادگی"
 
-#: src/Pages/Login/Form.js:26
-#: src/Pages/Profile/EditSection.js:46
-#: src/Pages/Signup/Form.js:49
+#: src/Pages/Login/Form.js:61
+#: src/Pages/Signup/Form.js:130
 msgid "Password"
 msgstr "گذر واژه"
 
-#: src/Pages/Login/Form.js:38
+#: src/Pages/Signup/utils.js:19
+msgid "Password is required"
+msgstr "گذرواژه الزامی‌ است"
+
+#: src/Pages/Signup/utils.js:20
+msgid "Password should be at least 5 characters"
+msgstr "گذرواژه باید حداقل ۵ کاراکتر باشد"
+
+#: src/Pages/Signup/utils.js:23
+msgid "Passwords must match"
+msgstr "گذرواژه و تایید گذرواژه باید یکسان باشند"
+
+#: src/Pages/Login/Form.js:74
 #: src/Pages/Login/Header.js:13
-#: src/shared/constants.js:44
+#: src/shared/constants.js:66
 msgid "Sign in"
 msgstr "ورود"
 
-#: src/Pages/Signup/Form.js:63
+#: src/Pages/Signup/Form.js:158
 #: src/Pages/Signup/Header.js:14
-#: src/shared/constants.js:48
+#: src/shared/constants.js:70
 msgid "Sign up"
 msgstr "ثبت نام"
 
-#: src/Pages/book-detail/BookCardInformation.js:41
+#: src/Pages/Login/Form.js:28
+msgid "You Log in Successfully"
+msgstr "شما با موفقیت وارد شدید"
+
+#: src/Pages/Profile/Navbar.js:24
+#: src/Pages/home-page/Navbar.js:27
+#: src/shared/ShelfsAndBookDetailNavbar.js:32
+msgid "You Logout Successfully"
+msgstr "شما با موفقیت خارج شدید"
+
+#: src/Pages/Signup/Form.js:58
+msgid "You Sign up Successfully"
+msgstr "شما با موفقیت ثبت‌نام کردید"
+
+#: src/Pages/book-detail/BookCardInformation.js:53
 msgid "book entesharat"
 msgstr "انتشارات کتاب"
-
-#: src/Pages/book-detail/BookCardInformation.js:38
-msgid "book motarjem"
-msgstr "مترجم کتاب"
 
 #: src/shared/books.js:23
 #: src/shared/books.js:27
@@ -95,11 +119,15 @@ msgstr "کتاب فلان هستم"
 msgid "book net"
 msgstr "بوک‌نت"
 
-#: src/Pages/book-detail/BookCardInformation.js:35
+#: src/Pages/book-detail/BookCardInformation.js:47
 msgid "book nevisande"
 msgstr "نویسنده کتاب"
 
-#: src/Pages/home-page/Navbar.js:9
+#: src/Pages/book-detail/Comments.js:53
+msgid "comment sent successfully"
+msgstr "نظر شما با موفقیت ارسال شد"
+
+#: src/shared/constants.js:7
 msgid "contact"
 msgstr "تماس با ما"
 
@@ -107,22 +135,35 @@ msgstr "تماس با ما"
 msgid "contact us"
 msgstr "تماس با ما"
 
-#: src/Pages/book-detail/BookCardInformation.js:61
+#: src/Pages/book-detail/BookCardInformation.js:79
 msgid "digikala"
 msgstr "برو به دیجی‌کالا"
 
-#: src/Pages/book-detail/BookCardInformation.js:52
+#: src/Pages/book-detail/BookCardInformation.js:67
 msgid "download"
 msgstr "دانلود کتاب"
 
-#: src/Pages/Profile/EditSection.js:35
-#: src/Pages/Profile/EditSection.js:60
+#: src/Pages/Profile/EditSection.js:83
+#: src/Pages/Profile/EditSection.js:110
+#: src/Pages/Profile/EditSection.js:138
 msgid "edit"
 msgstr "ویرایش"
 
-#: src/shared/constants.js:32
+#: src/Pages/Signup/utils.js:16
+msgid "email format is incorrect"
+msgstr "ایمیل نامعتبر است"
+
+#: src/Pages/Signup/utils.js:17
+msgid "email is required"
+msgstr "ایمیل الزامی است"
+
+#: src/shared/constants.js:54
 msgid "falsafe"
 msgstr "فلسفه"
+
+#: src/Pages/Signup/utils.js:12
+msgid "firstName is required"
+msgstr "نام الزامی است"
 
 #: src/Pages/home-page/Header.js:13
 msgid "go to shelf"
@@ -130,11 +171,11 @@ msgstr "به سوی قفسه‌ها"
 
 #: src/Pages/home-page/Header.js:11
 msgid "header text"
-msgstr "شیرین کردن قهومون &#x2615; با لذت کتاب خواندن &#x1F4DA; و گپ و گفتگو&#x1F4AC; درباره‌ی کتاب‌هایی که خواندیم"
+msgstr "شیرین کردن قهومون با لذت کتاب خواندن و گپ و گفتگو درباره‌ی کتاب‌هایی که خواندیم"
 
 #: src/Pages/home-page/Information.js:12
 msgid "info header"
-msgstr " &#x1F914;چرا باید کتاب بخوانیم؟"
+msgstr " چرا باید کتاب بخوانیم؟"
 
 #: src/Pages/home-page/Information.js:14
 msgid "info p 1"
@@ -144,35 +185,54 @@ msgstr "فرض ما بر این است که کسی که به این صفحه و 
 msgid "info p 2"
 msgstr "بیایید با هم صادق باشیم: کتاب‌خوان شدن، گاهی به یک تصادف وابسته استو ممکن است همه‌ی آدم‌ها در مسیر زندگی‌شان تصادفی را تجربه نکردهباشند که به سمت کتاب‌ها هدایت شوند. کم نیستند آدم‌هایی که کتابخواندن را نه یک کار معمولی و البته لذت‌بخش که یک امر پیچیده و گاهاًدشوار می‌پندارند. ما در عصری زندگی می‌کنیم که دستیابی به اطلاعات (ازهر نوع) ساده‌تر و سریع‌تر از هر زمان دیگری ممکن است و احتمالاً درقیاس با شبکه‌های اجتماعی و موتورهای جستجو و…، کتاب گزینه‌ی سریع وخوشایندی برای پر کردن اوقات نیست! بله، حتی کتاب‌خوان‌ترین آدم‌هایدوروبر ما هم، وقت بیشتری را صرف چیزهایی جز کتاب می‌کنند."
 
-#: src/Pages/book-detail/BookCardInformation.js:74
+#: src/Pages/Login/Form.js:36
+msgid "invalid username or password"
+msgstr "نام کاربری یا رمزعبور اشتباه است"
+
+#: src/Pages/Signup/utils.js:13
+msgid "lastName is required"
+msgstr "نام خانوادگی الزامی است"
+
+#: src/Pages/Profile/Navbar.js:75
+#: src/shared/constants.js:81
+msgid "logout"
+msgstr "خروج"
+
+#: src/Pages/book-detail/BookCardInformation.js:92
 msgid "moarefi book"
 msgstr "معرفی کتاب"
 
-#: src/Pages/Profile/Navbar.js:44
+#: src/Pages/Profile/EditSection.js:95
+msgid "name"
+msgstr "نام و نام خانوادگی"
+
+#: src/Pages/Profile/Navbar.js:65
+#: src/shared/constants.js:77
 msgid "profile"
 msgstr "پروفایل"
 
-#: src/shared/constants.js:27
+#: src/shared/constants.js:49
 msgid "ravan shenasi"
 msgstr "روان‌شناسی"
 
-#: src/shared/constants.js:12
+#: src/shared/constants.js:34
 msgid "roman"
 msgstr "رمان"
 
-#: src/Pages/shelf-detail/BookResults.js:25
+#: src/Pages/shelf-detail/BookResults.js:58
 msgid "search in books"
 msgstr "جستجو در کتاب‌ها"
 
-#: src/Pages/home-page/Navbar.js:21
+#: src/shared/constants.js:19
 msgid "section info"
 msgstr "کتاب بخوان"
 
-#: src/Pages/book-detail/Comments.js:36
+#: src/Pages/book-detail/Comments.js:103
+#: src/Pages/book-detail/Comments.js:119
 msgid "send"
 msgstr "ارسال"
 
-#: src/Pages/home-page/Navbar.js:17
+#: src/shared/constants.js:15
 msgid "services"
 msgstr "سخن بزرگان"
 
@@ -180,23 +240,28 @@ msgstr "سخن بزرگان"
 msgid "shekspier"
 msgstr "شکسپیر"
 
-#: src/shared/constants.js:11
-#: src/shared/constants.js:16
-#: src/shared/constants.js:21
-#: src/shared/constants.js:26
-#: src/shared/constants.js:31
-#: src/shared/constants.js:36
+#: src/shared/constants.js:33
+#: src/shared/constants.js:38
+#: src/shared/constants.js:43
+#: src/shared/constants.js:48
+#: src/shared/constants.js:53
+#: src/shared/constants.js:58
+#: src/shared/shelvs.utils.js:5
 msgid "shelf"
 msgstr "قفسه‌"
 
-#: src/Pages/Profile/Navbar.js:35
-#: src/Pages/home-page/Navbar.js:13
+#: src/Pages/Profile/Navbar.js:56
+#: src/shared/constants.js:11
 msgid "shelfs"
 msgstr "قفسه‌ها"
 
-#: src/shared/constants.js:22
+#: src/shared/constants.js:44
 msgid "shero adabiat"
 msgstr "شعر و ادبیات"
+
+#: src/Pages/Profile/EditSection.js:51
+msgid "something went wrong"
+msgstr "خطایی رخ داده است"
 
 #: src/Pages/home-page/Services.js:24
 msgid "soqrat"
@@ -211,15 +276,30 @@ msgstr "جامعه وقتی فرزانگی و سعادت می‌یابد که م
 msgid "speach of the big "
 msgstr "سخن بزرگان"
 
-#: src/shared/constants.js:37
+#: src/shared/constants.js:59
 msgid "tanz"
 msgstr "طنز"
 
-#: src/shared/constants.js:17
+#: src/shared/constants.js:39
 msgid "tarikhi"
 msgstr "تاریخی"
 
-#: src/Pages/book-detail/Comments.js:19
+#: src/Pages/Profile/EditSection.js:46
+msgid "user updated succesfully"
+msgstr "کاربر با موفقیت بروز شد"
+
+#: src/Pages/Login/Form.js:50
+#: src/Pages/Profile/EditSection.js:123
+#: src/Pages/Signup/Form.js:106
+#: src/Pages/book-detail/Comments.js:77
+msgid "username"
+msgstr "نام کاربری"
+
+#: src/Pages/Signup/utils.js:14
+msgid "username is required"
+msgstr "نام کاربری الزامی است"
+
+#: src/Pages/book-detail/Comments.js:67
 msgid "users comments"
 msgstr "نظرات کاربران"
 
@@ -239,6 +319,10 @@ msgstr "ویکتور هوگو"
 msgid "victor hogo content"
 msgstr "خوشبخت، کسی است که به یکی از این دو چیز دسترسی دارد، کتاب‌هایخوب یا دوستانی که اهل کتاب باشند"
 
-#: src/Pages/book-detail/Comments.js:26
+#: src/Pages/book-detail/Comments.js:90
 msgid "write your comment"
 msgstr "نظر خود را بنویسید"
+
+#: src/Pages/book-detail/BookCardInformation.js:50
+msgid "year"
+msgstr "سال"

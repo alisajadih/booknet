@@ -22,53 +22,77 @@ msgstr "Already have an account? Sign in"
 msgid "Back to home"
 msgstr "Back to home"
 
+#: src/Pages/Signup/Form.js:143
+msgid "Confirm Password"
+msgstr "Confirm Password"
+
 #: src/Pages/Login/Links.js:10
 msgid "Don't have an account? Sign Up"
 msgstr "Don't have an account? Sign Up"
 
-#: src/Pages/Login/Form.js:16
-#: src/Pages/Profile/EditSection.js:21
-#: src/Pages/Signup/Form.js:39
+#: src/Pages/Profile/EditSection.js:67
+#: src/Pages/Signup/Form.js:118
 msgid "Email Address"
 msgstr "Email Address"
 
-#: src/Pages/Signup/Form.js:20
+#: src/Pages/Signup/Form.js:84
 msgid "First Name"
 msgstr "First Name"
 
-#: src/Pages/Profile/Navbar.js:25
+#: src/Pages/Profile/Navbar.js:46
 msgid "Home"
 msgstr "Home"
 
-#: src/Pages/Signup/Form.js:29
+#: src/Pages/Signup/Form.js:95
 msgid "Last Name"
 msgstr "Last Name"
 
-#: src/Pages/Login/Form.js:26
-#: src/Pages/Profile/EditSection.js:46
-#: src/Pages/Signup/Form.js:49
+#: src/Pages/Login/Form.js:61
+#: src/Pages/Signup/Form.js:130
 msgid "Password"
 msgstr "Password"
 
-#: src/Pages/Login/Form.js:38
+#: src/Pages/Signup/utils.js:19
+msgid "Password is required"
+msgstr "Password is required"
+
+#: src/Pages/Signup/utils.js:20
+msgid "Password should be at least 5 characters"
+msgstr "Password should be at least 5 characters"
+
+#: src/Pages/Signup/utils.js:23
+msgid "Passwords must match"
+msgstr "Passwords must match"
+
+#: src/Pages/Login/Form.js:74
 #: src/Pages/Login/Header.js:13
-#: src/shared/constants.js:44
+#: src/shared/constants.js:66
 msgid "Sign in"
 msgstr "Sign in"
 
-#: src/Pages/Signup/Form.js:63
+#: src/Pages/Signup/Form.js:158
 #: src/Pages/Signup/Header.js:14
-#: src/shared/constants.js:48
+#: src/shared/constants.js:70
 msgid "Sign up"
 msgstr "Sign up"
 
-#: src/Pages/book-detail/BookCardInformation.js:41
+#: src/Pages/Login/Form.js:28
+msgid "You Log in Successfully"
+msgstr "You Log in Successfully"
+
+#: src/Pages/Profile/Navbar.js:24
+#: src/Pages/home-page/Navbar.js:27
+#: src/shared/ShelfsAndBookDetailNavbar.js:32
+msgid "You Logout Successfully"
+msgstr "You Logout Successfully"
+
+#: src/Pages/Signup/Form.js:58
+msgid "You Sign up Successfully"
+msgstr "You Sign up Successfully"
+
+#: src/Pages/book-detail/BookCardInformation.js:53
 msgid "book entesharat"
 msgstr "book entesharat"
-
-#: src/Pages/book-detail/BookCardInformation.js:38
-msgid "book motarjem"
-msgstr "book motarjem"
 
 #: src/shared/books.js:23
 #: src/shared/books.js:27
@@ -95,11 +119,15 @@ msgstr "book name"
 msgid "book net"
 msgstr "book net"
 
-#: src/Pages/book-detail/BookCardInformation.js:35
+#: src/Pages/book-detail/BookCardInformation.js:47
 msgid "book nevisande"
 msgstr "book nevisande"
 
-#: src/Pages/home-page/Navbar.js:9
+#: src/Pages/book-detail/Comments.js:53
+msgid "comment sent successfully"
+msgstr "comment sent successfully"
+
+#: src/shared/constants.js:7
 msgid "contact"
 msgstr "contact"
 
@@ -107,22 +135,35 @@ msgstr "contact"
 msgid "contact us"
 msgstr "contact us"
 
-#: src/Pages/book-detail/BookCardInformation.js:61
+#: src/Pages/book-detail/BookCardInformation.js:79
 msgid "digikala"
 msgstr "digikala"
 
-#: src/Pages/book-detail/BookCardInformation.js:52
+#: src/Pages/book-detail/BookCardInformation.js:67
 msgid "download"
 msgstr "download"
 
-#: src/Pages/Profile/EditSection.js:35
-#: src/Pages/Profile/EditSection.js:60
+#: src/Pages/Profile/EditSection.js:83
+#: src/Pages/Profile/EditSection.js:110
+#: src/Pages/Profile/EditSection.js:138
 msgid "edit"
 msgstr "edit"
 
-#: src/shared/constants.js:32
+#: src/Pages/Signup/utils.js:16
+msgid "email format is incorrect"
+msgstr "email format is incorrect"
+
+#: src/Pages/Signup/utils.js:17
+msgid "email is required"
+msgstr "email is required"
+
+#: src/shared/constants.js:54
 msgid "falsafe"
 msgstr "falsafe"
+
+#: src/Pages/Signup/utils.js:12
+msgid "firstName is required"
+msgstr "firstName is required"
 
 #: src/Pages/home-page/Header.js:13
 msgid "go to shelf"
@@ -144,35 +185,54 @@ msgstr "info p 1"
 msgid "info p 2"
 msgstr "info p 2"
 
-#: src/Pages/book-detail/BookCardInformation.js:74
+#: src/Pages/Login/Form.js:36
+msgid "invalid username or password"
+msgstr "invalid username or password"
+
+#: src/Pages/Signup/utils.js:13
+msgid "lastName is required"
+msgstr "lastName is required"
+
+#: src/Pages/Profile/Navbar.js:75
+#: src/shared/constants.js:81
+msgid "logout"
+msgstr "logout"
+
+#: src/Pages/book-detail/BookCardInformation.js:92
 msgid "moarefi book"
 msgstr "moarefi book"
 
-#: src/Pages/Profile/Navbar.js:44
+#: src/Pages/Profile/EditSection.js:95
+msgid "name"
+msgstr "name"
+
+#: src/Pages/Profile/Navbar.js:65
+#: src/shared/constants.js:77
 msgid "profile"
 msgstr "profile"
 
-#: src/shared/constants.js:27
+#: src/shared/constants.js:49
 msgid "ravan shenasi"
 msgstr "ravan shenasi"
 
-#: src/shared/constants.js:12
+#: src/shared/constants.js:34
 msgid "roman"
 msgstr "roman"
 
-#: src/Pages/shelf-detail/BookResults.js:25
+#: src/Pages/shelf-detail/BookResults.js:58
 msgid "search in books"
 msgstr "search in books"
 
-#: src/Pages/home-page/Navbar.js:21
+#: src/shared/constants.js:19
 msgid "section info"
 msgstr "section info"
 
-#: src/Pages/book-detail/Comments.js:36
+#: src/Pages/book-detail/Comments.js:103
+#: src/Pages/book-detail/Comments.js:119
 msgid "send"
 msgstr "send"
 
-#: src/Pages/home-page/Navbar.js:17
+#: src/shared/constants.js:15
 msgid "services"
 msgstr "services"
 
@@ -180,23 +240,28 @@ msgstr "services"
 msgid "shekspier"
 msgstr "shekspier"
 
-#: src/shared/constants.js:11
-#: src/shared/constants.js:16
-#: src/shared/constants.js:21
-#: src/shared/constants.js:26
-#: src/shared/constants.js:31
-#: src/shared/constants.js:36
+#: src/shared/constants.js:33
+#: src/shared/constants.js:38
+#: src/shared/constants.js:43
+#: src/shared/constants.js:48
+#: src/shared/constants.js:53
+#: src/shared/constants.js:58
+#: src/shared/shelvs.utils.js:5
 msgid "shelf"
 msgstr "shelf"
 
-#: src/Pages/Profile/Navbar.js:35
-#: src/Pages/home-page/Navbar.js:13
+#: src/Pages/Profile/Navbar.js:56
+#: src/shared/constants.js:11
 msgid "shelfs"
 msgstr "shelfs"
 
-#: src/shared/constants.js:22
+#: src/shared/constants.js:44
 msgid "shero adabiat"
 msgstr "shero adabiat"
+
+#: src/Pages/Profile/EditSection.js:51
+msgid "something went wrong"
+msgstr "something went wrong"
 
 #: src/Pages/home-page/Services.js:24
 msgid "soqrat"
@@ -211,15 +276,30 @@ msgstr "soqrat content"
 msgid "speach of the big "
 msgstr "speach of the big "
 
-#: src/shared/constants.js:37
+#: src/shared/constants.js:59
 msgid "tanz"
 msgstr "tanz"
 
-#: src/shared/constants.js:17
+#: src/shared/constants.js:39
 msgid "tarikhi"
 msgstr "tarikhi"
 
-#: src/Pages/book-detail/Comments.js:19
+#: src/Pages/Profile/EditSection.js:46
+msgid "user updated succesfully"
+msgstr "user updated succesfully"
+
+#: src/Pages/Login/Form.js:50
+#: src/Pages/Profile/EditSection.js:123
+#: src/Pages/Signup/Form.js:106
+#: src/Pages/book-detail/Comments.js:77
+msgid "username"
+msgstr "username"
+
+#: src/Pages/Signup/utils.js:14
+msgid "username is required"
+msgstr "username is required"
+
+#: src/Pages/book-detail/Comments.js:67
 msgid "users comments"
 msgstr "users comments"
 
@@ -239,6 +319,10 @@ msgstr "victor hogo"
 msgid "victor hogo content"
 msgstr "victor hogo content"
 
-#: src/Pages/book-detail/Comments.js:26
+#: src/Pages/book-detail/Comments.js:90
 msgid "write your comment"
 msgstr "write your comment"
+
+#: src/Pages/book-detail/BookCardInformation.js:50
+msgid "year"
+msgstr "year"

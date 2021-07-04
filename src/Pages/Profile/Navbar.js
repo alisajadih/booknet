@@ -3,9 +3,30 @@ import LogoBlack from "styles/imgs/logoblack.png";
 import { i18n } from "@lingui/core";
 import { NavLink as RRDLink } from "react-router-dom";
 import { HASHES } from "shared/constants";
+import { useMutation, useQueryClient } from "react-query";
+import { user } from "shared/fetchers";
+import { redirect } from "shared/history.utils";
+import { useSnackbarContext } from "shared/providers/SnackbarProvider";
+import { useSnackbar } from "notistack";
+import { _keyProfile } from "shared/fetchers/user";
 
 export function Navbar(props) {
   const classes = useStyles(props);
+
+  const { mutate: logout } = useMutation(user.logout);
+
+  const { enqueueSnackbar } = useSnackbar();
+
+  const queryClient = useQueryClient();
+
+  const handleLogout = () => {
+    logout();
+    enqueueSnackbar(i18n._("You Logout Successfully"), {
+      variant: "success",
+    });
+    queryClient.invalidateQueries(_keyProfile);
+  };
+
   return (
     <AppBar className={classes.appbar} variant="outlined" position="static">
       <Toolbar>
@@ -42,6 +63,16 @@ export function Navbar(props) {
             activeClassName={classes.activeClassName}
           >
             {i18n._("profile")}
+          </Link>
+          <Link
+            component={RRDLink}
+            to="/login"
+            variant="h6"
+            color="textPrimary"
+            activeClassName={classes.activeClassName}
+            onClick={handleLogout}
+          >
+            {i18n._("logout")}
           </Link>
         </Box>
       </Toolbar>
